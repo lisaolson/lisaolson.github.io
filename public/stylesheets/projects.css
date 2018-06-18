@@ -1,0 +1,112 @@
+.col-md-3, .col-md-4, .col-md-5, .col-md-7, .col-md-6 {
+  padding: 0;
+}
+.row-nav {
+  /*border-bottom: 1px solid pink;*/
+  margin-bottom: 1%;
+}
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 1.5s ease-in-out;
+}
+img:hover {
+  transform: scale(1.2);
+  filter: none;
+  z-index: 2;
+  position: absolute;
+}
+.text-blue {
+  background: #B0D0D3;
+  opacity: .5;
+}
+.text-pink {
+  background: #E8D0D0;
+  opacity: .5;
+}
+.text-gray {
+  background: #ABB2B5;
+  opacity: .5;
+}
+.text-purple {
+  background: #C6BECE;
+  opacity: .5;
+}
+p {
+  transition: all 1.5s ease-in-out;
+  opacity: .5;
+  padding: 5%;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+p:hover {
+  transform: scale(1.1);
+  filter: none;
+  z-index: 2;
+  opacity: .9;
+  color: black;
+}
+
+div.scroll {
+  display: inline-block;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.scrollitem {
+  display: inline-block;
+}
+.projects {
+  margin: 0 10%;
+}
+a {
+  color: #E8C7C7;
+}
+.col-md-1 {
+  padding-top: 6%;
+}
+.col-md-1 a {
+  letter-spacing: 1px;
+  font-size: 12px;f
+}
+h3 {
+  font-family: 'Poiret One';
+  letter-spacing: 20px;
+  font-size: 50px;
+}
+
+i {
+  padding: 0 12%;
+  animation: 5s infinite alternate;
+  animation-name: spin;
+}
+i:hover {
+  animation-play-state: paused;
+  color: black;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+.words {
+  font-family: 'Poiret One';
+}
+.other_row {
+  padding: 0 15%;
+}
+div.text-blue, div.text-gray, div.text-purple {
+  padding: 1%;
+  margin-top: 1%;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  opacity: .7;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+ p {
+    padding: 0;
+  }
+}
