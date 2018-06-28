@@ -2,12 +2,12 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 
-app.set('view engine', 'ejs');
-app.use(express.static(__dirname + '/public'));
+app.set('view engine', 'html');
+app.use(express.static(__dirname + '/public/views'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function(req, res){
-  res.render('about');
+  res.render('index');
 });
 
 app.get('/contact', function(req, res){
