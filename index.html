@@ -23,211 +23,58 @@
     </ul>
 </div>
 
-
 <div class="row">
-	<h1>Hello!</h1>
-	<div class="col-md-4 summary">
-	<p><span id="name">I'm Lisa.</span><br> Thanks for wandering over to my page.<br>
-	I was previously employed at a 4 person startup in Sunnyvale, CA as the sole Front-End Web Developer before attending Holberton School of Software Engineering to gain skills in C, Python, Bash Scripting, and Full Stack Software Engineering.</p>
+	<div class="col col-md-7 shapes" id="shape1">
+	<div class="thumbnail">
+          <img id=opener" src="public/images/bandw.jpg" alt="">
+	</div>
+	</div>
+	<div class="col col-md-5 words">
+		<h1>Hello! </h1>
+		<p><span id="name">I'm Lisa.</span><br> Thanks for wandering over to my page.<br>
+    I was previously employed at a 4 person startup in Sunnyvale, CA as the sole Front-End Web Developer before attending Holberton School of Software Engineering to gain skills in C, Python, Bash Scripting, and Full Stack Software Engineering.</p>
+	</div>
 </div>
-</div>
-
-<div class="scrollmenu">
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/farmland.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/globe.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/vocal.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/sydney.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/aspen.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/computer.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/SF.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/graduate.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/startup.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="element">
-      <div class="thumbnail">
-          <img src="public/images/freelance.jpg" alt="">
-      </div>
-    </div>
-</div>
-<hr>
 
 <br><br>
 
 <footer>
-    <p>&copy; LISA OLSON 2017</p>
+    <p>&copy; LISA OLSON 2018</p>
 </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
-</html>
-
 <style>
-i {
-  padding: 0 12%;
-  animation: 5s infinite alternate;
-  animation-name: spin;
-}
-/*i:hover {
-  animation-play-state: paused;
-  color: black;
-}*/
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
-}
-div.scrollmenu {
-  position: inherit;
-  margin-top: 4%;
-  background-color: transparent;
-  overflow: auto;
-  white-space: nowrap;
-}
-p {
-  padding-left: 2%;
-  display: inline-grid;
-  overflow: scroll;
-  color: #545f66;
-  font-family: 'Poiret One';
-  opacity: .9;
-}
-div.summary {
-	margin-left: 17%;
-}
-#name {
-	font-size: 21px;
-}
-.story {
-  padding: 0;
-}
-.col-md-7 {
-  padding: 0;
-}
-.element {
-    display: inline-block;
-    background-color: #EFD7D7;
-    color: white;
-    width: 30%;
-    opacity: .9;
-    height: 300px;
-    text-align: justify;
-    shape-inside: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+div.shapes {
+	height: 700px;
+	background: #EFD7D7;
+	border: 1px solid black;
+	display: inline-block;
+	opacity: .9;
+	text-align: justify;
+	shape-inside: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
     shape-padding: 20px;
-    animation: 5s infinite alternate;
-    animation-name: move;
-    transition: all 5s ease;
-    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  }
-  .element:hover {
-    animation-play-state: paused;
-    transition: all 5s ease;
-    shape-inside: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-  }
-.shortstory {
-  border-top: 3px solid #EFD7D7;
-  width: 100%;
+    animation: infinite;
+    animation-name: spin;
+	-webkit-animation-duration: 100s;
+    animation-duration: 100s;
+    -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
 }
-.story h1, .shortstory h1 {
-  letter-spacing: 5px;
+div.words {
+	margin-top: 15%;
 }
-.below {
-  padding-bottom: 2%;
+div.words p {
+	color: #545f66;
+    padding: 10%;
 }
-.story p, h1{
-  font-family: 'Poiret One';
-  color: #5a656b;
-  padding: 0 15%;
-  text-align: center;
+#opener\22 {
+	height: 800px;
 }
-.story p {
-  padding: 1% 10%;
-  text-align: right;
-}
-.story h1 {
-  padding: 2% 10%;
-}
-.shortstory p, h1 {
-  font-family: 'Poiret One';
-  color: #5a656b;
-  text-align: left;
-}
-.shortstory h1 {
-  padding-left: 30%;
-  padding-left: 46%;
-}
-div.thumbnail img {
-  height: 250px;
-  margin: 0;
-  width: 100%;
-}
-.height {
-  height: 140px;
-}
-.height p {
-  color: black;
-  padding: 20% 30%;
-  letter-spacing: 2px;
-  text-align: center;
-}
-.skills {
-  padding: 0 5% 0 0;
-  margin-top: 8%;
-}
-.bl2 {
-  background: #EFD7D7;
+div.words h1 {
+	color: #545f66;
+    font-size: 30px;
+    padding-left: 0;
 }
 
-footer p {
-  font-family: 'Poiret One';
-  color: #545f66;
-  font-size: 18px;
-  margin-left: 45%;
-  padding: 2%;
-  border-top: 2px solid #545f66;
+div.row {
+	margin: 0;
+	padding: 0;
 }
 </style>
