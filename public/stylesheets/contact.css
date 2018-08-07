@@ -16,8 +16,6 @@ h2 {
 
 i {
   padding: 0 12%;
-  animation: 5s infinite alternate;
-  animation-name: spin;
   opacity: .8;
 }
 i:hover {
@@ -67,8 +65,6 @@ p {
 
 i {
   padding: 0 12%;
-  animation: 5s infinite alternate;
-  animation-name: spin;
   opacity: .6;
 }
 i:hover {

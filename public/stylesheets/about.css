@@ -1,19 +1,19 @@
-i {
+/* i {
   padding: 0 12%;
   animation: 5s infinite alternate;
   animation-name: spin;
 }
+*/
 i:hover {
   animation-play-state: paused;
   color: black;
 }
-@keyframes spin {
+
+/* @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
 }
-ul.nav.navbar-nav {
-  margin-left: 34%;
-}
+*/
 div.scrollmenu {
   position: inherit;
   margin-top: 4%;
@@ -117,7 +117,6 @@ footer p {
   font-family: 'Poiret One';
   color: #545f66;
   font-size: 18px;
-  margin-left: 45%;
   padding: 2%;
   border-top: 2px solid #545f66;
 }

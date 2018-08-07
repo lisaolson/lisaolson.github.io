@@ -28,11 +28,15 @@
   }
 
 ul.nav.navbar-nav {
-  margin-left: 34%;
   letter-spacing: 5px;
 }
 .nav>li>a {
   color: #545f66;
+}
+div.row.row-nav {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
 }
 .nav.navbar-nav li {
   text-align: center;
@@ -46,9 +50,6 @@ ul.nav.navbar-nav {
   text-decoration: none;
   background-color: #545f66;
   color: #e8e3e3;
-}
-.row-nav {
-  padding-top: 2%;
 }
 .shape {
   height: 200px;
@@ -170,8 +171,6 @@ div.scrollmenu {
 
   i {
     padding: 0 12%;
-    animation: 5s infinite alternate;
-    animation-name: spin;
   }
   i:hover {
     animation-play-state: paused;

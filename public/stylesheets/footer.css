@@ -2,7 +2,27 @@ footer p {
   font-family: 'Poiret One';
   color: #545f66;
   font-size: 18px;
-  margin-left: 45%;
   padding: 2%;
-  border-top: 2px solid #545f66;
+  border-top: 1px solid #989fa3;
+	margin: 0 auto;
+	text-align: center;
+	display: grid;
+}
+a.icon_bottom {
+    color: black;
+}
+div#icons.row {
+    margin: 0 40%;
+	padding-top: 5%;
+}
+div.col-md-3.icon_row {
+    padding: 0;
+    text-align: center;
+}
+a.icon_bottom {
+    font-size: 25px;
+    color: #545f66;
+}
+a.icon_bottom i:hover {
+    color: #e8c7c6;
 }
