@@ -53,8 +53,9 @@ p {
   .element:hover {
     animation-play-state: paused;
     transition: all 5s ease;
-    shape-inside: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+/*    shape-inside: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+*/
   }
 .shortstory {
   border-top: 3px solid #EFD7D7;
