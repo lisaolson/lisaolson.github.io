@@ -1,6 +1,6 @@
 .shape {
     display: inline-block;
-    background-color: black;
+    background-color: #ffffff;
     color: white;
     width: 30%;
     height: 300px;
@@ -161,7 +161,7 @@ div.scrollmenu {
     -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   }
   .element:hover {
-    animation-play-state: paused;
+/*    animation-play-state: paused; */
   }
 
   @keyframes move {
