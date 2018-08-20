@@ -32,7 +32,7 @@
 	<div class="col col-md-5 words">
 		<h1>Hello! </h1>
 		<p><span id="name">I'm Lisa.</span><br> Thanks for wandering over to my page.<br>
-    I was previously employed at a 4 person startup in Sunnyvale, CA as the sole Front-End Web Developer before attending Holberton School of Software Engineering to gain skills in C, Python, Bash Scripting, and Full Stack Software Engineering.</p>
+    I was previously employed at a 4 person startup in Sunnyvale, CA as the sole Front-End Web Developer before attending Holberton School of Software Engineering to gain skills in C, Python, Bash Scripting, and Full Stack Software Engineering.<br><a id="all_projects" href="/projects" >Check out my work</a></p>
 	</div>
 </div>
 
@@ -59,7 +59,7 @@
 <style>
 div.shapes {
 	height: 700px;
-	background: #EFD7D7;
+    background-color: #ffffff;
 	border: 1px solid black;
 	display: inline-block;
 	opacity: .9;
@@ -68,8 +68,8 @@ div.shapes {
     shape-padding: 20px;
     animation: infinite;
     animation-name: spin;
-	-webkit-animation-duration: 100s;
-    animation-duration: 100s;
+	-webkit-animation-duration: 300s;
+    animation-duration: 300s;
     -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
 	margin-top: 5%;
 }
@@ -79,7 +79,7 @@ div.words {
 }
 div.words p {
 	color: #545f66;
-    padding: 10%;
+    padding: 10% 10% 0 10%;
 }
 #opener\22 {
 	height: 800px;
@@ -93,5 +93,16 @@ div.words h1 {
 div.row {
 	margin: 0;
 	padding: 0;
+}
+
+#all_projects {
+    margin-left: 5em;
+    margin-top: .5em;
+    color: #f1b2b5;
+    font-size: 1.2em;
+}
+
+#all_projects:hover {
+	color: #545f66;
 }
 </style>
