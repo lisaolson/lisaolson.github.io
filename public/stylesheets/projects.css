@@ -1,110 +1,178 @@
-.col-md-3, .col-md-4, .col-md-5, .col-md-7, .col-md-6, .col-md-12, .col-sm-12 {
-  padding: 0;
-}
-.row-nav {
-  /*border-bottom: 1px solid pink;*/
-  margin-bottom: 1%;
-}
-img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  transition: all 1.5s ease-in-out;
-}
-img:hover {
-  transform: scale(1.2);
-  filter: none;
-  z-index: 2;
-  position: absolute;
-}
-.text-blue {
-  background: #B0D0D3;
-  opacity: .5;
-}
-.text-pink {
-  background: #E8D0D0;
-  opacity: .5;
-}
-.text-gray {
-  background: #ABB2B5;
-  opacity: .5;
-}
-.text-purple {
-  background: #C6BECE;
-  opacity: .5;
-}
-p {
-  transition: all 1.5s ease-in-out;
-  opacity: .5;
-  padding: 5%;
-  font-size: 12px;
-  text-align: center;
-  font-family: 'Poiret One';
-}
-p:hover {
-  transform: scale(1.1);
-  filter: none;
-  z-index: 2;
-  opacity: .9;
-  color: black;
-}
-
-div.scroll {
-  display: inline-block;
+div.scrollmenu {
+  position: inherit;
+  margin-top: 4%;
+  background-color: transparent;
   overflow: auto;
   white-space: nowrap;
 }
-div.scrollitem {
-  display: inline-block;
-}
-.projects {
-  margin: 0 10%;
-}
-a {
-  color: #E8C7C7;
-}
-.col-md-1 {
-  padding-top: 6%;
-}
-.col-md-1 a {
-  letter-spacing: 1px;
-  font-size: 12px;f
-}
-h3 {
+p {
+  padding-left: 5%;
+  display: inline-grid;
+  overflow: scroll;
+  color: #545f66;
   font-family: 'Poiret One';
-  letter-spacing: 20px;
-  font-size: 50px;
+  opacity: .9;
+}
+div.summary {
+    margin-left: 17%;
+}
+#name {
+    font-size: 21px;
+}
+.story {
+  padding: 0;
+}
+.col-md-7 {
+  padding: 0;
+}
+.element {
+    display: inline-block;
+    background-color: #312d2d;
+    color: white;
+    width: 30%;
+    opacity: .9;
+    height: 300px;
+    text-align: justify;
+    shape-inside: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    shape-padding: 20px;
+    animation-name: move;
+    transition: all 5s ease;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  }
+  .element:hover {
+    transition: all 1s ease;
+    opacity: 1;
+  }
+
+.info_btn {
+    background: white;
+    border: none;
+    color: #353535;
+    border: 1px solid #353535;
+    width: 85%;
+    padding: 2.5%;
+    font-family: 'Poiret One';
+    border-top: none;
+    font-variant: unicase;
+    letter-spacing: 1.5px;
 }
 
-i {
-  padding: 0 12%;
+.info_btn:hover {
+    color: white;
+    background: #353535;
 }
-i:hover {
-  animation-play-state: paused;
-  color: black;
+
+.shortstory {
+  border-top: 3px solid #EFD7D7;
+  width: 100%;
 }
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+.story h1, .shortstory h1 {
+  letter-spacing: 5px;
 }
-.words {
+.below {
+  padding-bottom: 2%;
+}
+.story p, h1{
   font-family: 'Poiret One';
-}
-.other_row {
+  color: #5a656b;
   padding: 0 15%;
+  text-align: center;
 }
-div.text-blue, div.text-gray, div.text-purple {
-  padding: 1%;
-  margin-top: 1%;
+.story p {
+  padding: 1% 10%;
+  text-align: right;
 }
-h1 {
-  font-family: 'Dancing Script', cursive;
-  opacity: .7;
-  letter-spacing: 3px;
+.story h1 {
+  padding: 2% 10%;
+}
+.shortstory p, h1 {
+  font-family: 'Poiret One';
+  color: #5a656b;
   text-align: left;
 }
+.shortstory h1 {
+  padding-left: 30%;
+  padding-left: 46%;
+}
+div.thumbnail img {
+  height: 250px;
+  margin: 0;
+  width: 100%;
+}
+.height {
+  height: 140px;
+}
+.height p {
+  color: black;
+  padding: 20% 30%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.skills {
+  padding: 0 5% 0 0;
+  margin-top: 8%;
+}
+.bl2 {
+  background: #EFD7D7;
+}
 
-@media (max-width: 600px) {
- p {
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    font-family: 'Poiret One';
+}
+
+.modal-content p {
+    font-family: Bad Script;
+    letter-spacing: 1px;
+}
+
+.modal-content li {
+    margin-left: 1em;
+}
+
+.modal-content a {
+    text-align: center;
     padding: 0;
-  }
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.linkz {
+    font-size: 30px;
+    color: #e8c7c6;
+    text-align: center;
+}
+.linkz:hover {
+    color: #545f66;
 }
