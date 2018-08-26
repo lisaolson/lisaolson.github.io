@@ -1,88 +1,59 @@
-.white {
-  background: white;
-  padding: 0;
+.contact {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.row-container {
-  margin: 2% 20%;
+.socially {
+    background: white;
 }
 
-h2 {
-  font-family: 'Poiret One';
-  font-size: 20px;
-  letter-spacing: 2px;
-  text-align: center;
+#twitter:hover {
+    background: #1DA1F2;
+    height: 500px;
 }
 
-i {
-  padding: 0 12%;
-  opacity: .8;
-}
-i:hover {
-  animation-play-state: paused;
-  color: black;
-}
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+#medium:hover {
+    background: #34e79a;
+    height: 500px;
 }
 
-p {
-  font-size: 25px;
-  padding: 0 30%;
+#in:hover {
+    background: #04527e;
+    height: 500px;
 }
 
-#gmail {
-  color: #dd4b39;
-}
-#linkedin {
-  color: #007bb5;
-}
-#five {
-  color: #808080;
-}
-#insta {
-  color: #e95950;
-}
-#angellist {
-  color: #000;
-  margin-left: 20%;
-}
-#github {
-  color: #24292e;
-  margin-left: 20%;
-}
-#pinterest {
-  color: #bd081c;
-}
-#facebook {
-  color: #3b5998;
-}
-#soundcloud {
-  color: #ff6400;
-  margin-left: 20%;
+#resume:hover {
+    background: #f5e2dc;
+    height: 500px;
 }
 
-i {
-  padding: 0 12%;
-  opacity: .6;
-}
-i:hover {
-  animation-play-state: paused;
-  color: black;
-  opacity: .9;
-}
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+#dribble:hover {
+    background: #963326;
+    height: 500px;
 }
 
-#flash {
-  -vendor-animation: flash;
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
+#githubb:hover {
+    background: #24292e;
+    height: 500px;
 }
-div.thumbnail {
-  border: 2px solid white;
+
+.sociallinks {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 4.5em;
+}
+
+.sociallinks:hover {
+    color: white;
+}
+
+.socialcontent {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
 }
