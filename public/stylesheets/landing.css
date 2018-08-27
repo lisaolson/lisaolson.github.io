@@ -11,21 +11,19 @@
     animation-name: spin;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   }
-  .shape:hover {
+.shape:hover {
     animation-play-state: paused;
     color: black;
-/*    shape-inside: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-*/  }
+}
 
-  @keyframes spin {
+@keyframes spin {
       from {transform:rotate(0deg);}
       to {transform:rotate(15deg);}
-  }
+}
 
 @keyframes fadeIn {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 .row.spin {
   margin: 0 25%;
@@ -161,27 +159,19 @@ div.scrollmenu {
     transition: all 5s ease;
     -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   }
-  .element:hover {
-/*    animation-play-state: paused; */
-  }
-
-  @keyframes move {
+@keyframes move {
     from {left: 0px;}
     to {left: 200px;}
-  }
-  /*.element:hover {
-    shape-inside: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  }*/
+}
 
-  i {
+i {
     padding: 0 12%;
-  }
-  i:hover {
+}
+i:hover {
     animation-play-state: paused;
     color: black;
-  }
-  @keyframes spin {
+}
+@keyframes spin {
       from {transform:rotate(0deg);}
       to {transform:rotate(360deg);}
-  }
+}
