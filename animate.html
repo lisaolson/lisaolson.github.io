@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lisa Olson</title>
+    <link rel="stylesheet" href="public/stylesheets/landing.css">
+    <link rel="stylesheet" href="public/stylesheets/footer.css">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Dancing+Script|Dawning+of+a+New+Day|Italianno|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body>
+
+<link rel="stylesheet" href="public/stylesheets/about.css">
+
+<div class="row row-nav">
+    <ul class="nav navbar-nav">
+        <li class="border"><a href="/about">My Story <i class="fa fa-user" aria-hidden="true"></i></a></li>
+        <li class="border"><a href="/projects">My Work <i class="fa fa-terminal" aria-hidden="true"></i></a></li>
+        <li><a href="/contact">My Info <i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+    </ul>
+</div>
+
+
+<!-- Addition to INDEX -->
+
+<div class="allCircles">
+    <div class="row rowCircles">
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+			<img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+			<img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+            <img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+    </div>
+    <div class="row rowCircles">
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+            <img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+            <img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+            <img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+    </div>
+    <div class="row rowCircles">
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+            <img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+            <img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+        <div class="col-md-4 col-sm-4 col-xs-4 circles">
+            <img class="circleImages" src="public/images/pink.jpg" alt="skillset image"/>
+		</div>
+    </div>
+</div>
+<div class="row" id="icons">
+    <div class="col col-md-3 icon_row">
+            <a class="icon_bottom" href="https://github.com/lisaolson"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+    </div>
+    <div class="col col-md-3 icon_row">
+            <a class="icon_bottom" href="mailto:olson.lisa94@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+    </div>
+    <div class="col col-md-3 icon_row">
+            <a class="icon_bottom" href="https://www.linkedin.com/in/carolynlisaolson/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    <div class="col col-md-3 icon_row">
+            <a class="icon_bottom" href="https://drive.google.com/file/d/1Ck8QpmY6ADM7-y_CiRufxfD22AzlpEJv/view"><i class="fa fa-file-o" aria-hidden="true"></i></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; LISA OLSON 2018</p>
+</footer>
+<style>
+@keyframes shiftright {
+    0%   {background-color:white; left:0px; top:0px;}
+    100%  {left:50%; top:0px;}
+}
+
+@keyframes shiftleft {
+    0%   {background-color:white; left:50%; top:0px;}
+    100%  {left:0px; top:0px;}
+}
+
+.outer1 {
+    height: 500px;
+    position: relative;
+    background-color: #858080;
+	z-index: 2;
+	-webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+	shape-inside: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.outer1:hover {
+    animation: shiftright 3s linear forwards;
+}
+
+.inner1 {
+	height: 500px;
+	position: absolute;
+	background: white;
+	z-index: 1;
+}
+
+.outer2 {
+    height: 500px;
+	left: 50%;
+    position: relative;
+    background-color: #656060;
+    z-index: 2;
+	-webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+	clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+	shape-inside: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+.outer2:hover {
+    animation: shiftleft 3s linear;
+	animation-fill-mode: forwards;
+}
+
+.inner2 {
+    height: 500px;
+    position: absolute;
+	left: 50%;
+    background: white;
+    z-index: 1;
+}
+
+.outer3 {
+    height: 500px;
+    position: relative;
+    background-color: #ddd9d9;
+    z-index: 2;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    shape-inside: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.outer3:hover {
+    animation: shiftright 3s linear forwards;
+}
+
+.inner3 {
+    height: 500px;
+    position: absolute;
+    background: white;
+    z-index: 1;
+}
+
+
+div.shapes {
+	height: 700px;
+	background: #EFD7D7;
+	border: 1px solid black;
+	display: inline-block;
+	opacity: .9;
+	text-align: justify;
+	shape-inside: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    shape-padding: 20px;
+    animation: infinite;
+    animation-name: spin;
+	-webkit-animation-duration: 100s;
+    animation-duration: 100s;
+    -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+	margin-top: 5%;
+}
+
+div.words {
+	margin-top: 15%;
+}
+div.words p {
+	color: #545f66;
+    padding: 10%;
+}
+#opener\22 {
+	height: 800px;
+}
+div.words h1 {
+	color: #545f66;
+    font-size: 30px;
+    padding-left: 0;
+}
+
+div.row {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Addition to INDEX */
+.circles {
+    background: white;
+    height: 250px;
+    border-radius: 100%;
+    width: 25%;
+    margin: 1% 4%;
+}
+
+.allCircles {
+    height: 750px;
+    margin: 0 10%;
+}
+
+.circleImages {
+	max-height: 100%;
+    max-width: 100%;
+    height: 250px;
+    border-radius: 100%;	
+}
+</style>
