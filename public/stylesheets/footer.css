@@ -26,3 +26,17 @@ a.icon_bottom {
 a.icon_bottom i:hover {
     color: #e8c7c6;
 }
+
+.rowCircles {
+    height: 10px;
+}
+
+.circleImage {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+}
+.divCircles {
+    padding: 0;
+}

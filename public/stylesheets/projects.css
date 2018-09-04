@@ -176,6 +176,9 @@ div.thumbnail img {
 .linkz:hover {
     color: #545f66;
 }
+.divCircles {
+	padding: 0;
+}
 /*
 @media screen and (min-width: 320px)
 {
