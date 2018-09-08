@@ -19,7 +19,7 @@ app.get('/projects', function(req, res){
 });
 
 app.get('/about', function(req, res){
-  res.render('about');
+  res.render('index');
 });
 
 app.listen(process.env.PORT || 3000, process.env.IP, function(){
