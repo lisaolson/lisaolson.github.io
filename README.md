@@ -10,3 +10,6 @@ Hello!  This is my personal website I've been working on over the last couple ye
 - Google Host
 - HTML/CSS/Boostrap/JavaScript
 - FontAwesome
+
+#### Author
+Lisa Olson | @eunoia_lo
