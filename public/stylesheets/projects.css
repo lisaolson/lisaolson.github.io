@@ -13,8 +13,8 @@ p {
   font-family: 'Poiret One';
   opacity: .9;
 }
-div.summary {
-    margin-left: 17%;
+h1.high_low_titles {
+    padding: 3% 15%;
 }
 #name {
     font-size: 21px;
