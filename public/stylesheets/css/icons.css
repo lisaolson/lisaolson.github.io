@@ -1,0 +1,18 @@
+.icons {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.icons a {
+    font-size: 2rem;
+    color: #F7F4F2;
+    padding: 1em;
+}
+
+.icons a:hover {
+    color: #BF8989;
+}
+
+.icons i:hover {
+    transform: rotate(25deg);
+}
