@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background: #F7F4F2;
+}
+
+p, 
+h1, 
+h2 {
+    font-family: 'Thasadith', sans-serif;
+}
