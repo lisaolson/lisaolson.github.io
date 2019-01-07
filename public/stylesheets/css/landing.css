@@ -1,0 +1,177 @@
+/* .shape {
+    display: inline-block;
+    background-color: #ffffff;
+    color: white;
+    width: 30%;
+    height: 300px;
+    text-align: justify;
+    shape-inside: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    shape-padding: 20px;
+    animation: 5s infinite alternate;
+    animation-name: spin;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  }
+.shape:hover {
+    animation-play-state: paused;
+    color: black;
+}
+
+@keyframes spin {
+      from {transform:rotate(0deg);}
+      to {transform:rotate(15deg);}
+}
+
+@keyframes fadeIn {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+.row.spin {
+  margin: 0 25%;
+  }
+
+ul.nav.navbar-nav {
+	letter-spacing: 5px;
+	font-family: 'Bad Script';
+}
+.nav>li>a {
+  color: #545f66;
+}
+div.row.row-nav {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+}
+.nav.navbar-nav li {
+  text-align: center;
+  font-size: 13px;
+}
+.nav.navbar-nav li a {
+  font-size: 11px;
+}
+
+.nav.navbar-nav li a:hover {
+  text-decoration: none;
+  background-color: #545f66;
+  color: #e8e3e3;
+}
+.shape {
+  height: 200px;
+}
+.shape1 {
+  background: #E8E3E3;
+}
+.shape2 {
+  background: #545F66;
+}
+.shape3 {
+  background: #B0D0D3;
+}
+.shape p {
+  font-family: 'Poiret One';
+  font-size: 14px;
+  padding-top: 5%;
+  text-align: center;
+}
+#first_ {
+  height: 250px;
+  background: #B0D0D3;
+  z-index: 1;
+  position: absolute;
+  margin-top: 4%;
+}
+#title {
+  height: 200px;
+  background: #545F66;
+  position: absolute;
+  margin-left: 30%;
+}
+#top {
+  position: absolute;
+  z-index: 2;
+}
+#para {
+  position: absolute;
+  z-index: 2;
+}
+#web {
+  color: #545F66;
+  letter-spacing: 15px;
+}
+#create {
+  color: #545F66;
+}
+
+.pink {
+  height: 240px;
+  position: absolute;
+  background: #E8E3E3;
+  margin-left: 40%;
+  margin-top: 12%;
+}
+div.col-md-3 {
+  padding: 0;
+}
+
+.thumbnail {
+  margin: 0;
+  opacity: .8;
+}
+
+div.col-md-2.img-pad {
+  padding: 0;
+}
+div.thumbnail {
+  padding: 0;
+  margin: 0;
+}
+div.thumbnail img {
+  height: 150px;
+  margin: 0;
+  width: 100%;
+}
+.thumbnail img {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+}
+.images {
+  padding-top: 25%;
+}
+div.scrollmenu {
+  position: absolute;
+  margin-top: 4%;
+  background-color: transparent;
+  overflow: auto;
+  white-space: nowrap;
+}
+.element {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: justify;
+    shape-inside: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    shape-padding: 20px;
+    animation: 5s infinite alternate;
+    animation-name: move;
+    transition: all 5s ease;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  }
+@keyframes move {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+i {
+    padding: 0 12%;
+}
+i:hover {
+    animation-play-state: paused;
+    color: black;
+}
+@keyframes spin {
+      from {transform:rotate(0deg);}
+      to {transform:rotate(360deg);}
+} */
