@@ -1,0 +1,51 @@
+footer {
+    border-top: 1px solid #989fa3;
+    position: fixed;
+    bottom: 0;
+    margin-top: 5%;
+    background-color: #2B2B2B;
+    width: 100%;
+    height: 10rem;
+}
+
+footer p {
+    font-family: 'Thasadith', sans-serif;
+    color: #F7F4F2;
+    font-size: 18px;
+    padding: 2%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+}
+a.icon_bottom {
+    color: #F7F4F2;
+}
+div#icons.row {
+    margin: 0 40%;
+	padding-top: 5%;
+}
+div.col-md-3.icon_row {
+    padding: 0;
+    text-align: center;
+}
+a.icon_bottom {
+    font-size: 25px;
+    color: #F7F4F2;
+}
+a.icon_bottom i:hover {
+    color: #e8c7c6;
+}
+
+.rowCircles {
+    height: 10px;
+}
+
+.circleImage {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+}
+.divCircles {
+    padding: 0;
+}
