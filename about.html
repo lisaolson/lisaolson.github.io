@@ -3,204 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>Lisa Olson</title>
-    <link rel="stylesheet" href="public/stylesheets/landing.css">
-    <link rel="stylesheet" href="public/stylesheets/footer.css">
+    <link rel="stylesheet" href="public/stylesheets/css/landing.css">
+    <link rel="stylesheet" href="public/stylesheets/css/footer.css">
+    <link rel="stylesheet" href="public/stylesheets/css/nav.css">
+    <link rel="stylesheet" href="public/stylesheets/css/base.css">
+    <link rel="stylesheet" href="public/stylesheets/css/icons.css">
+    <link rel="stylesheet" href="public/stylesheets/css/home.css">
+
     <title>Coffee</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Dancing+Script|Dawning+of+a+New+Day|Italianno|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Dancing+Script|Dawning+of+a+New+Day|Italianno|Poiret+One|Thasadith" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   <body>
 
-<link rel="stylesheet" href="public/stylesheets/about.css">
+    <div class="navigation">
+        <input type="checkbox" class="navigation __checkbox" id="navi-toggle">
 
-<div class="row row-nav">
-    <ul class="nav navbar-nav">
-        <li class="border"><a href="/about">My Story <i class="fa fa-user" aria-hidden="true"></i></a></li>
-        <li class="border"><a href="/projects">My Work <i class="fa fa-terminal" aria-hidden="true"></i></a></li>
-        <li><a href="/contact">My Info <i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-    </ul>
-</div>
+        <label for="navi-toggle" class="navigation __button">
+            <span class="navigation __icon"><i class="fab fa-ello"></i></span>
+        </label>
 
-<div class="row">
-	<div class="col col-md-7 col-sm-7 col-xs-7 shapes" id="shape1">
-	<div class="thumbnail">
-          <img id=opener" src="public/images/bandw.jpg" alt="">
-	</div>
-	</div>
-	<div class="col col-md-5 col-sm-5 col-xs-5 words">
-		<h1>Hello! </h1>
-		<p><span id="name">I'm Lisa.</span><br> Thanks for wandering over to my page.<br>
-    I was previously employed at a 4 person startup in Sunnyvale, CA as the sole Front-End Web Developer before attending Holberton School of Software Engineering to gain skills in C, Python, Bash Scripting, and Full Stack Software Engineering.<br><a id="all_projects" href="/projects" >Check out my work</a></p>
-	</div>
-</div>
+        <div class="navigation __background"></div>
 
-<br>
-<br>
+        <nav class="navigation __nav">
+            <ul class="navigation __list">
+                <li class="navigation __item"><a href="/about" class="navigation __link item1">Story</a></li><br>
+                <li class="navigation __item"><a href="/projects" class="navigation __link item2">Work</a></li><br>
+                <li class="navigation __item"><a href="contact" class="navigation __link item3">Info</a></li><br>
+            </ul>
+        </nav>
+    </div>
 
-<div class="row newRow">
-	<div class="col-md-6 col-sm-6 col-xs-6 ">
-		<h1 id="skills">SKILLS</h1>
-    </div>
-    <div class="col-md-6 col-sm-6 col-xs-6 sideTextDiv">
-        <h4 class="sideText">HTML/<span id="css">CSS</span>/JavaScript</h4>
-        <h4 class="sideText"><span id="uxui">UX</span>/UI/Chrome Tools</h4>
-        <h4 class="sideText">Photoshop/<span id="adobe">Sketch</span>/Illustrator</h4>
-        <h4 class="sideText"><span id="python">Python</span>/Flask/SQL</h4>
-        <h4 class="sideText">Technical <span id="writing">Writing</span></h4>
-    </div>
-</div>
+    <section class="opener-section">
+        <div class="opener">
+            <img src="public/images/blueyellow.jpg" alt="" class="blueyellow">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+        <div class="opener-paragraph">
+            <h2 class="name">Lisa Olson</h2>
+            <p class="engcre"><span>engineer</span> || <span class="cre">creative</span></p>
+        </div>
+    </section>
 
+    <section class="about">
+        <div class="aboutme">
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <p>I've spent my life in performing arts, customer service, photography, writing and most recently, Web Development.  I began my career in tech 3 years ago beginning with JavaScript and small coding challenges before jumping into C, low-level programming and full-fledged web applications on multiple platforms including Ruby on Rails, Python/Django, and Full-stack Node.js.  My passion and talents lie primarily in the art of the user and designing mobile-first, responsive applications that feel intuitive and fun to navigate whether you’re 15 or 95.  I’m a forever learner, notorious for buying too many Udemy courses and spending hours and hours in the library.  I thrive when working on a team with a specific goal that I’m passionate about.  I’m a mission-driven creative excited about the future of design and tech and how they’re melding and growing to enhance the human experience.</p>
+            <img src="public/images/mehandss.jpg" alt="Profile Photo" class="myface">
+        </div>
+    </section>
 
-<div class="rowCircles">
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 divCircles">
-        <img class="circleImage" src="public/images/pink.jpg" />
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 divCircles">
-        <img class="circleImage" src="public/images/pink.jpg" />
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 divCircles">
-        <img class="circleImage" src="public/images/pink.jpg" />
-    </div>
-</div>
+    <section class="pillars">
+        <div class="mywork">
+            <a href="/projects"><i class="fas fa-glasses"></i> see my work <i class="fab fa-ello"></i></a>
+        </div>
+    </section>
 
-
-<div class="row" id="icons">
-    <div class="col col-md-3 col-sm-3 col-xs-3 icon_row">
-            <a class="icon_bottom" href="https://github.com/lisaolson"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-    </div>
-    <div class="col col-md-3 col-sm-3 col-xs-3 icon_row">
-            <a class="icon_bottom" href="mailto:olson.lisa94@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-    </div>
-    <div class="col col-md-3 col-sm-3 col-xs-3 icon_row">
-            <a class="icon_bottom" href="https://www.linkedin.com/in/carolynlisaolson/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-    <div class="col col-md-3 col-sm-3 col-xs-3 icon_row">
-            <a class="icon_bottom" href="https://drive.google.com/file/d/1Ck8QpmY6ADM7-y_CiRufxfD22AzlpEJv/view"><i class="fa fa-file-o" aria-hidden="true"></i></a>
-    </div>
-</div>
+<br><br><br><br><br><br><br>
 
 <footer>
-    <p>&copy; LISA OLSON 2018</p>
+    <div class="icons">
+            <a href="https://github.com/lisaolson"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+            <a href="mailto:olson.lisa94@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/carolynlisaolson/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/eunoia_lo"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="http://thecodingblues.blogspot.com/"><i class="fab fa-blogger-b" aria-hidden="true"></i></a>
+            <a href="https://medium.com/@lisaolson_"><i class="fab fa-medium-m" aria-hidden="true"></i></a>
+            <a href="https://drive.google.com/file/d/1Ck8QpmY6ADM7-y_CiRufxfD22AzlpEJv/view"><i class="fas fa-file" aria-hidden="true"></i></a>
+    </div>
+    <p>&copy; LISA OLSON 2019</p>
 </footer>
-<style>
-div.shapes {
-	height: 700px;
-    background-color: #ffffff;
-	border: 1px solid black;
-	display: inline-block;
-	opacity: .9;
-	text-align: justify;
-	shape-inside: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-    shape-padding: 20px;
-    animation: infinite;
-    animation-name: spin;
-	-webkit-animation-duration: 300s;
-    animation-duration: 300s;
-    -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-	margin-top: 5%;
-}
 
-div.words {
-	margin-top: 15%;
-}
-div.words p {
-	color: #545f66;
-    padding: 10% 10% 0 10%;
-}
-#opener\22 {
-	height: 800px;
-}
-div.words h1 {
-	color: #545f66;
-    font-size: 30px;
-    padding-left: 0;
-}
-a#all_projects {
-color: #ebb6b4;
-}
-.textOverlay {
-    font-size: 70px;
-    color: #545f66;
-    position: absolute;
-    top: 0;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 5%;
-}
-
-div.row.newRow {
-    height: 400px;
-    margin: 1% 10%;
-}
-
-#sideImage {
-    max-height: 100%;
-    max-width: 100%;
-    height: 600px;
-}
-.sideText {
-    color: #5e5d5f;
-    font-size: 30px;
-    font-family: 'Poiret One';
-    padding: 3% 0;
-    text-align: left;
-}
-
-.sideTextDiv {
-    margin: 1% 0;
-}
-
-#skills {
-	font-size: 90px;
-	color: #919192;
-	border-bottom: 1px solid #919192;
-    transform: rotate(270deg);
-    position: absolute;
-    margin-top: 30%;
-    margin-left: 40%;
-}
-
-#css {
-	color: #d0bda8;
-}
-#uxui {
-	color: #c0e2f2;
-}
-#adobe {
-	color: #ebb6b4;
-}
-#python {
-	color: #b49bce;
-}
-
-#writing {
-	color: #8cb18c;
-}
-
-.rowCircles {
-    height: 10px;
-	margin-top: 7%; 
-}
-
-.circleImage {
-    padding: 0;
-    margin: 0;
-    height: 50px;
-    width: 100%;
-}
-.divCircles {
-	padding: 0;
-}
-/*
-@media screen and (min-width: 320px)
-{
-	div.words h1 {
-		font-size: 45px;
-	}
-	div.words p {
-		font-size: 25px;
-	}
-}*/
-</style>
