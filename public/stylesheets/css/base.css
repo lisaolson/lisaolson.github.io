@@ -15,3 +15,23 @@ h1,
 h2 {
     font-family: 'Thasadith', sans-serif;
 }
+
+
+@media all and (min-width: 1140px) {
+    body {
+      
+    }
+  }
+  
+  @media all and (max-width: 1139px) and (min-width: 800px) {
+    body {
+      
+    }
+  }
+  
+  @media all and (max-width: 799px) {
+    body {
+      
+    }
+  }
+  

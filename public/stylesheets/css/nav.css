@@ -21,8 +21,8 @@ Pink #BF8989;
       height: 7rem;
       width: 7rem;
       position: fixed;
-      top: 6rem;
-      right: 6rem;
+      top: 2rem;
+      right: 5rem;
       border-radius: 50%;
       z-index: 60;
       text-align: center;
@@ -143,4 +143,24 @@ Pink #BF8989;
 
   .item3 {
     margin-top: 2em;
+  }
+
+  @media (max-width: 1139px) and (min-width: 800px) {
+    .__item {
+        margin: 0;
+    }
+
+    .__link {
+        font-size: 4rem;
+    }
+  }
+  
+  @media (max-width: 799px) {
+    .__item {
+        margin: 0;
+    }
+
+    .__link {
+        font-size: 4rem;
+    }
   }
