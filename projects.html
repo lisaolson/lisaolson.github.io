@@ -35,26 +35,47 @@
         </nav>
     </div>
 
+
+      <!-- Photography Website -->
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span class="closePhoto close">&times;</span>
+            <h2>Photography</h2>
+                <p>Personal Photography website; All photos &copy; Lisa Olson</p>
+                <ul>
+                    <li>Custom graphics and polygons</li>
+                    <li>Advanced SASS and CSS</li>
+                    <li>Use of imports, plugins, and mixins</li>
+                    <li>Custom grid and animations</li>
+                </ul>
+                    <h3>Technologies Used</h3>
+                        <p>HTML, SASS, Adobe Suite</p>
+                    <br>
+            <hr>
+                    <a href="http://lisaolson.info/lisaolsonphoto" target="_blank"><i class="fas fa-globe linkz"></i></a></li>
+        </div>
+    </div>
+      
     <!-- Shell -->
-<div id="myModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Simple Shell</h2>
-          <p>Custom Linux command line interpreter</p>
-          <ul>
-              <li>Displays a prompt and waits for the user to type a command</li>
-              <li>Displays a prompt again each time a command has executed</li>
-              <li>Handles command line with arguments</li>
-              <li>Handles the PATH</li>
-              <li>Handles the exit and env built-ins</li>
-          </ul>
-              <h3>Technologies Used</h3>
-                  <p>C, Github, Vim</p>
-              <br>
-        <hr>
-              <a href="https://github.com/lisaolson/simple_shell" target="_blank"><i class="fab fa-github linkz"></i></a></li>
-   </div>
-  </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close1 close">&times;</span>
+            <h2>Simple Shell</h2>
+                <p>Custom Linux command line interpreter</p>
+                <ul>
+                    <li>Displays a prompt and waits for the user to type a command</li>
+                    <li>Displays a prompt again each time a command has executed</li>
+                    <li>Handles command line with arguments</li>
+                    <li>Handles the PATH</li>
+                    <li>Handles the exit and env built-ins</li>
+                </ul>
+                    <h3>Technologies Used</h3>
+                        <p>C, Github, Vim</p>
+                    <br>
+            <hr>
+                    <a href="https://github.com/lisaolson/simple_shell" target="_blank"><i class="fab fa-github linkz"></i></a></li>
+        </div>
+    </div>
   
   <!-- Monty -->
   <div id="myModal2" class="modal">
@@ -178,6 +199,15 @@
 
 <!-- Scrollmenu -->
 <div class="scrollmenu">
+
+    <div class="element">
+        <div class="thumbnail">
+            <img src="public/images/bwvogue.jpg" alt="">
+            <!-- <span class="title">LOW LEVEL</span> -->
+        </div>
+        <button class="info_btn" id="myBtnPhoto">Photography</button>
+    </div>
+
     <div class="element">
       <div class="thumbnail">
           <img src="public/images/terminal_shell.jpg" alt="">
@@ -258,22 +288,46 @@
             };
             
             function start() {
-              first_modal();
-              second_modal();
-              third_modal();	
-              fourth_modal();
-              fifth_modal();
-              sixth_modal();
-              seventh_modal();
-              eighth_modal();
+                photo_modal();
+                first_modal();
+                second_modal();
+                third_modal();	
+                fourth_modal();
+                fifth_modal();
+                sixth_modal();
+                seventh_modal();
+                eighth_modal();
             }
+
+            // Photo Modal
+            function photo_modal() {
+                  var modal = document.getElementById('photoModal');
+            
+                  var btn = document.getElementById("myBtnPhoto");
+            
+                  var span = document.getElementsByClassName("closePhoto")[0];
+            
+                  btn.onclick = function() {
+                      modal.style.display = "block";
+                  }
+            
+                  span.onclick = function() {
+                      modal.style.display = "none";
+                  }
+            
+                  window.onclick = function(event) {
+                      if (event.target == modal) {
+                          modal.style.display = "none";
+                      }
+                  }
+              }
                 // First Modal
-              function first_modal() {
+                function first_modal() {
                   var modal = document.getElementById('myModal');
             
                   var btn = document.getElementById("myBtn");
             
-                  var span = document.getElementsByClassName("close")[0];
+                  var span = document.getElementsByClassName("close1")[0];
             
                   btn.onclick = function() {
                       modal.style.display = "block";
