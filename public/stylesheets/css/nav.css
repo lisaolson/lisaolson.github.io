@@ -63,12 +63,12 @@ Pink #BF8989;
 
   .__item {
       margin: 1rem;
-      color: #6E9CB1;
+      color: #A5C6D2;
       margin: 5em;
   }
 
   .__link {
-      color: #6E9CB1;
+      color: #A5C6D2;
       position: absolute;
       font-family: 'Thasadith', sans-serif;
   }
@@ -79,7 +79,7 @@ Pink #BF8989;
           font-size: 3rem;
           font-weight: 300;
           padding: 1rem 2rem;
-          color: #6E9CB1;
+          color: #A5C6D2;
           text-decoration: none;
           text-transform: uppercase;
           background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #F7F7F7 50%);
@@ -109,7 +109,7 @@ Pink #BF8989;
 
       .__icon {
           font-size: 5em;
-          color: #6E9CB1;
+          color: #A5C6D2;
       }
           .__icon:hover i{
               animation: spin 3s infinite;
