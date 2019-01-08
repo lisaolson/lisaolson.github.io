@@ -59,6 +59,7 @@
 .cre {
     font-family: 'Dancing Script', cursive;
     font-size: 1.3em;
+    color: #6E9CB1;
 }
 
 /* About Me Section */
@@ -83,12 +84,12 @@
 }
 
 .myface {
-    width: 50%;
+    width: 48%;
     position: absolute;
     top: 0;
     right: 0;
     opacity: .6;
-    padding: 4% 4% 4% 0;
+    padding: 4% 0 4% 0;
 }
 
 .line3 {
@@ -130,6 +131,7 @@
     text-decoration: none;
     color: #BF8989;
     font-size: 1.5em;
+    font-family: 'Thasadith', sans-serif;
 }
 
 .mywork a:hover {
@@ -160,10 +162,30 @@
     .name {
         color: #F7F4F2;
     }
+    .cre {
+        color: #F7F4F2;
+    }
   }
   
   @media (max-width: 799px) {
-    body {
-      
+    .line4 {
+        width: 10em;
+    }
+
+    .line3 {
+        right: 5em;
+    }
+
+    .opener-section {
+        color: #F7F4F2;
+    }
+    .opener-paragraph {
+        right: 6em;
+    }
+    .name {
+        color: #F7F4F2;
+    }
+    .cre {
+        color: #F7F4F2;
     }
   }
