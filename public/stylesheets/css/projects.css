@@ -209,7 +209,7 @@ span.title {
   }
 } */
 
-@media (max-width: 1007px) and (min-width: 400px) {
+@media (max-width: 1007px) and (min-width: 641px) {
   .element {
       width: 50%;
       height: 30em;
