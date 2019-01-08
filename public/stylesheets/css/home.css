@@ -135,3 +135,35 @@
 .mywork a:hover {
     color: #595959;
 }
+
+@media (min-width: 1140px) {
+    body {
+      
+    }
+  }
+  
+  @media (max-width: 1139px) and (min-width: 800px) {
+    .line4 {
+        width: 20em;
+    }
+
+    .line3 {
+        right: 5em;
+    }
+
+    .opener-section {
+        color: #F7F4F2;
+    }
+    .opener-paragraph {
+        right: 6em;
+    }
+    .name {
+        color: #F7F4F2;
+    }
+  }
+  
+  @media (max-width: 799px) {
+    body {
+      
+    }
+  }
