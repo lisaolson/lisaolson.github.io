@@ -1,0 +1,23 @@
+.contact {
+    width: 50%;
+    margin: 10% 15%;
+}
+
+.contact i {
+    color: #BF8989;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+.ptag {
+    font-family: 'Thasadith', sans-serif;
+    /* padding: 2%; */
+}
+
+i.fa-instagram {
+    font-size: 1.8rem;
+}
+
+.contact-nottext {
+    margin-left: 5%;
+}
