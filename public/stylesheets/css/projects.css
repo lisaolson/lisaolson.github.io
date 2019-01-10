@@ -4,6 +4,7 @@ div.scrollmenu {
   background-color: transparent;
   overflow: auto;
   white-space: nowrap;
+  padding-bottom: 5%;
 }
 
 p {
@@ -131,16 +132,18 @@ div.thumbnail img {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #2b2b2b;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 10px solid #F7F4F2;
     width: 40%;
     font-family: 'Thasadith', sans-serif;
+    border-radius: 1%;
 }
 
 .modal-content p, h2, h3, li{
     letter-spacing: 1px;
+    color: #F7F4F2;
 }
 
 .modal-content p, h2, h3 {
@@ -174,7 +177,7 @@ div.thumbnail img {
 }
 .linkz {
     font-size: 30px;
-    color: #e8c7c6;
+    color: #BF8989;
     text-align: center;
     margin-top: 2%;
 }
