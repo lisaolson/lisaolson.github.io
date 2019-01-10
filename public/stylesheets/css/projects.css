@@ -8,8 +8,6 @@ div.scrollmenu {
 }
 
 p {
-  padding-left: 5%;
-  display: inline-grid;
   overflow: scroll;
   color: #545f66;
   font-family: 'Thasadith', sans-serif;
@@ -62,6 +60,11 @@ h1.high_low_titles {
 .info_btn:hover {
     color: white;
     background: #353535;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
 }
 
 .shortstory {
@@ -133,7 +136,7 @@ div.thumbnail img {
 
 .modal-content {
     background-color: #2b2b2b;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 20px;
     border: 10px solid #F7F4F2;
     width: 40%;
@@ -150,8 +153,19 @@ div.thumbnail img {
     text-align: center;
 }
 
+.modal-content p {
+    font-family: 'Dawning of a new day';
+    font-size: 1.3rem;
+}
+
+.modal-content h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .modal-content li {
     margin-left: 1em;
+    padding-bottom: 2%;
 }
 
 .modal-content a {
@@ -183,6 +197,11 @@ div.thumbnail img {
 }
 .linkz:hover {
     color: #F7F4F2;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
 }
 .divCircles {
     padding: 0;
