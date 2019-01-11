@@ -90,7 +90,7 @@ Pink #BF8989;
       .__link:hover,
       .__link:active {
           background-position: 100%;
-          color: #2B2B2B;
+          color: #595959;
           transform: translateX(1rem);
       }
 
