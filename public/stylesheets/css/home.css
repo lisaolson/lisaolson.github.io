@@ -205,11 +205,20 @@
         width: 80%;
         left: 4em;
     }
-    .about {
-        height: 130vh;
-    }
     .process-background {
         height: 130vh;
+    }
+    .about p {
+        font-size: 2rem;
+    }
+    .process-background {
+        height: 70vh;
+    }
+    .mywork {
+        top: 21rem;
+    }
+    .mywork a {
+        font-size: 2rem;
     }
   }
 
