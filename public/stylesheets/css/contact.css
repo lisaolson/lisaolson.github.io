@@ -21,3 +21,26 @@ i.fa-instagram {
 .contact-nottext {
     margin-left: 5%;
 }
+
+@media (max-width: 1139px) and (min-width: 800px) {
+    .contact-text {
+        font-size: 2rem;
+    }
+
+    .contact-nottext {
+        font-size: 2rem;
+        margin: 15%;
+    }
+  }
+  
+  @media (max-width: 799px) {
+    .contact-text {
+        font-size: 2rem;
+    }
+
+    .contact-nottext {
+        font-size: 2rem;
+        margin: 15%;
+    }
+  }
+  
