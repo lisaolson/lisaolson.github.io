@@ -228,6 +228,9 @@
     .opener-paragraph {
         right: 6em;
     }
+    .eng {
+        color: #F7F4F2;
+    }
     .name {
         color: #F7F4F2;
     }
@@ -240,11 +243,17 @@
         width: 100%;
         left: .1em;
     }
-    .about {
-        height: 120vh;
+    .about p {
+        font-size: 2rem;
     }
     .process-background {
-        height: 60vh;
+        height: 70vh;
+    }
+    .mywork {
+        top: 21rem;
+    }
+    .mywork a {
+        font-size: 2rem;
     }
   }
 
