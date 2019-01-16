@@ -6,6 +6,7 @@ Soft Charcoal #595959;
 Super White #F7F4F2;
 Light Gray #91969A;
 Blueee #6E9CB1;
+Light Blue #a5c6d2;
 Pink #BF8989;
  */
 
@@ -30,7 +31,7 @@ Pink #BF8989;
   }
 
   .__background {
-      height: 2rem;
+      height: 10rem;
       width: 2rem;
       border-radius: 50%;
       top: 6.5rem;
