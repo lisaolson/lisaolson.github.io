@@ -18,7 +18,8 @@ Hello!  This is my personal website I've been working on over the last couple ye
 ![alt text](https://imgur.com/a/F6ScCoc)
 ![alt text](https://imgur.com/a/e5LqWix)
 
-![Whiteboard](https://imgur.com/a/F6ScCoc)
+![Whiteboard](public/images/ga_progressBar.png)
+![Whiteboard](public/images/ga_whiteboard.jpg)
 
 #### Author
 Lisa Olson | @eunoia_lo
