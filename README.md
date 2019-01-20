@@ -21,5 +21,8 @@ Hello!  This is my personal website I've been working on over the last couple ye
 ![Whiteboard](public/images/ga_progressBar.png)
 ![Whiteboard](public/images/ga_whiteboard.jpg)
 
+
+<a href="url"><img src="public/images/ga_whiteboard.png" align="left" height="48" width="48" ></a>
+
 #### Author
 Lisa Olson | @eunoia_lo
