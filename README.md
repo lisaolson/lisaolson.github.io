@@ -15,5 +15,8 @@ Hello!  This is my personal website I've been working on over the last couple ye
 - FontAwesome
 - Google Fonts
 
+![alt text](https://imgur.com/a/F6ScCoc)
+![alt text](https://imgur.com/a/e5LqWix)
+
 #### Author
 Lisa Olson | @eunoia_lo
