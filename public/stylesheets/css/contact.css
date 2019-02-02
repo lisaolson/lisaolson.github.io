@@ -43,7 +43,10 @@ i.fa-instagram {
     }
 
     .process img {
-        margin-top: 85%;
+        width: 0;
+        height: 0;
+        visibility:  hidden;
+        display: none;
     }
   }
   
@@ -55,6 +58,10 @@ i.fa-instagram {
     .contact-nottext {
         font-size: 2rem;
         margin: 15%;
+    }
+
+    .process img {
+        margin-top: 85%;
     }
   }
   
