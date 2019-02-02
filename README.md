@@ -18,5 +18,11 @@ Visit at http://lisaolson.info
 - FontAwesome
 - Google Fonts
 
+##### Images
+Below contains screenshots of the working live site.
+![Progress Bar Illustrations on whiteboard](public/images/portfolio_screen.png)
+![Progress Bar Illustration](public/images/portfolio_screen2.png)
+![Progress Bar](public/images/portfolio_screen3.png)
+
 #### Author
 Lisa Olson | @eunoia_lo
