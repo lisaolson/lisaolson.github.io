@@ -20,7 +20,7 @@ Visit at http://lisaolson.info
 
 ##### Images
 Below contains screenshots of the working live site.
-![Progress Bar Illustration](public/images/portfolio_screen2.png)
+![Progress Bar Illustration](public/images/portfolio_new.png)
 ![Progress Bar](public/images/portfolio_screen3.png)
 
 #### Author
