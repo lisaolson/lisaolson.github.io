@@ -22,6 +22,16 @@ i.fa-instagram {
     margin-left: 5%;
 }
 
+.process img {
+    background: cover;
+    width: 30%;
+    position: absolute;
+    right: -5rem;
+    height: 40em;
+    margin-right: 20%;
+    top: 0;
+}
+
 @media (max-width: 1139px) and (min-width: 800px) {
     .contact-text {
         font-size: 2rem;
@@ -30,6 +40,11 @@ i.fa-instagram {
     .contact-nottext {
         font-size: 2rem;
         margin: 15%;
+    }
+
+    .process img {
+        transform: rotate(90deg);
+        margin-left: 50%;
     }
   }
   
