@@ -128,11 +128,12 @@
     width: 100%;
 }
 .mywork {
-    text-align: right;
-    margin-right: 10em;
-    height: 10vh;
     position: absolute;
-    top: 18rem;
+    top: 32rem;
+    right: 5rem;
+    border: 2px solid #6E9CB1;
+    padding: 1%;
+    border-radius: 1%;
 }
 
 .mywork i{
@@ -141,13 +142,16 @@
 
 .mywork a {
     text-decoration: none;
-    color: #BF8989;
+    color: #6E9CB1;
     font-size: 1.5em;
     font-family: 'Thasadith', sans-serif;
 }
 
-.mywork a:hover {
-    color: #595959;
+.mywork:hover {
+    background: #6E9CB1;
+}
+.mywork:hover a{
+    color: #f6f4f2
 }
 
 .ux {
@@ -215,7 +219,8 @@
         height: 70vh;
     }
     .mywork {
-        top: 21rem;
+        top: 40rem;
+        right: 40%;
     }
     .mywork a {
         font-size: 2rem;
@@ -259,7 +264,8 @@
         height: 70vh;
     }
     .mywork {
-        top: 21rem;
+        top: 40rem;
+        right: 40%;
     }
     .mywork a {
         font-size: 2rem;
