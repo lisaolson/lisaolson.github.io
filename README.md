@@ -20,9 +20,9 @@ Visit at http://lisaolson.info
 
 ##### Images
 Below contains screenshots of the working live site.
-![Screen Shot of Final Product](public/images/portfolio_new.png)
-![Screen Shot of Final Product](public/images/home.png)
-![Screen Shot of Final Product](public/images/contact.png)
+![Screen Shot of Final Product](public/images/newscreen.png)
+![Screen Shot of Final Product](public/images/newcreen2.png.png)
+![Screen Shot of Final Product](public/images/newscreen3.png)
 
 #### Author
 Lisa Olson | @eunoia_lo
