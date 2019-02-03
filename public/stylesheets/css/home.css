@@ -14,29 +14,31 @@
 
 .blueyellow {
     position: absolute;
-    left: 2.5em;
     width: 50rem;
-    top: 3em;
+    top: 6em;
     opacity: .9;
+    left: 6rem;
+    border: 2px solid #595959;
+    padding: 2%;
 }
 
 .line1 {
     position: absolute;
     width: .2em;
-    height: 30em;
+    height: 40em;
     background: #595959;
     z-index: 10;
-    left: 10em;
-    top: 10em;
+    left: 16em;
+    top: 0;
 }
 
 .line2 {
     position: absolute;
-    width: 22em;
+    width: 25%;
     height: .2em;
     background: #595959;
     z-index: 9;
-    top: 15em;
+    top: 30em;
     left: 0;
 }
 
@@ -60,7 +62,7 @@
 .cre {
     font-family: 'Dancing Script', cursive;
     font-size: 1.3em;
-    color: #6E9CB1;
+    color: #C7E2DA;
 }
 
 /* About Me Section */
@@ -131,7 +133,7 @@
     position: absolute;
     top: 32rem;
     right: 5rem;
-    border: 2px solid #6E9CB1;
+    border: 2px solid #ceebe2;
     padding: 1%;
     border-radius: 1%;
 }
@@ -142,16 +144,16 @@
 
 .mywork a {
     text-decoration: none;
-    color: #6E9CB1;
+    color: #595959;
     font-size: 1.5em;
     font-family: 'Thasadith', sans-serif;
 }
 
 .mywork:hover {
-    background: #6E9CB1;
+    background: #ceebe2;
 }
 .mywork:hover a{
-    color: #f6f4f2
+    color: #595959;
 }
 
 .ux {
@@ -198,10 +200,10 @@
         right: 6em;
     }
     .name {
-        color: #F7F4F2;
+        color: #595959;
     }
     .cre {
-        color: #F7F4F2;
+        color: #595959;
     }
     .myface {
         top: 25rem;
@@ -217,13 +219,6 @@
     }
     .process-background {
         height: 70vh;
-    }
-    .mywork {
-        top: 40rem;
-        right: 40%;
-    }
-    .mywork a {
-        font-size: 2rem;
     }
   }
 
@@ -243,13 +238,13 @@
         right: 6em;
     }
     .eng {
-        color: #F7F4F2;
+        color: #595959;
     }
     .name {
-        color: #F7F4F2;
+        color: #595959;
     }
     .cre {
-        color: #F7F4F2;
+        color: #595959;
     }
     .myface {
         top: 25rem;
@@ -262,13 +257,6 @@
     }
     .process-background {
         height: 70vh;
-    }
-    .mywork {
-        top: 40rem;
-        right: 40%;
-    }
-    .mywork a {
-        font-size: 2rem;
     }
     
   }
