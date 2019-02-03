@@ -21,7 +21,7 @@ Visit at http://lisaolson.info
 ##### Images
 Below contains screenshots of the working live site.
 ![Screen Shot of Final Product](public/images/newscreen.png)
-![Screen Shot of Final Product](public/images/newcreen2.png.png)
+![Screen Shot of Final Product](public/images/newcreen2.png)
 ![Screen Shot of Final Product](public/images/newscreen3.png)
 
 #### Author
