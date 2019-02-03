@@ -150,19 +150,40 @@ Pink #BF8989;
   @media (max-width: 1139px) and (min-width: 800px) {
     .__item {
         margin: 0;
+        color: #595959;
+    }
+    .__link:link,
+    .__link:visited {
+        color: #ceebe2;
+        font-size: 12rem;
     }
 
     .__link {
-        font-size: 4rem;
+        color: #ceebe2;
+        font-size: 12rem;
+    }
+
+    .__icon {
+        font-size: 7rem;
     }
   }
   
   @media (max-width: 799px) {
     .__item {
         margin: 0;
+        color: #595959;
     }
 
     .__link {
-        font-size: 4rem;
+        color: #ceebe2;
+        font-size: 12rem;
+    }
+    .__link:link,
+    .__link:visited {
+        color: #ceebe2;
+        font-size: 12rem;
+    }
+    .__icon {
+        font-size: 7rem;
     }
   }
