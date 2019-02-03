@@ -2,6 +2,7 @@
 Blue #6E9CB1;
 Gray #C6C6C6;
 Charcoal #2B2B2B;
+Teal : #ceebe2;
 Soft Charcoal #595959;
 Super White #F7F4F2;
 Light Gray #91969A;
@@ -64,12 +65,12 @@ Pink #BF8989;
 
   .__item {
       margin: 1rem;
-      color: #A5C6D2;
+      color: #ceebe2;
       margin: 5em;
   }
 
   .__link {
-      color: #A5C6D2;
+      color: #ceebe2;
       position: absolute;
       font-family: 'Thasadith', sans-serif;
   }
@@ -80,7 +81,7 @@ Pink #BF8989;
           font-size: 3rem;
           font-weight: 300;
           padding: 1rem 2rem;
-          color: #A5C6D2;
+          color: #ceebe2;
           text-decoration: none;
           text-transform: uppercase;
           background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #F7F7F7 50%);
@@ -110,7 +111,7 @@ Pink #BF8989;
 
       .__icon {
           font-size: 5em;
-          color: #A5C6D2;
+          color: #ceebe2;
       }
           .__icon:hover i{
               animation: spin 3s infinite;
