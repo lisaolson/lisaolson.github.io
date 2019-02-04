@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="public/stylesheets/css/icons.css">
     <link rel="stylesheet" href="public/stylesheets/css/home.css">
     <link rel="stylesheet" href="public/stylesheets/css/projects.css">
+    <link rel="stylesheet" href="public/stylesheets/css/gifs.css">
     <link rel="shortcut icon" href="public/images/favicon-sun-o.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Dancing+Script|Dawning+of+a+New+Day|Italianno|Poiret+One|Thasadith" rel="stylesheet">
@@ -42,17 +43,12 @@
             <span class="closePhoto close">&times;</span>
             <h2>Photography</h2><br>
                 <p>Personal Photography website; All photos &copy; Lisa Olson</p><br><br>
-                <ul>
-                    <li>Custom graphics and polygons</li>
-                    <li>Advanced SASS and CSS</li>
-                    <li>Use of imports, plugins, and mixins</li>
-                    <li>Custom grid and animations</li>
-                </ul>
-                    <h3>Technologies Used</h3><br>
-                        <p>HTML, SASS, Adobe Suite</p><br>
-                    <br>
+                <video controls autoplay loop class="modal-vid left_col">
+                    <source src="public/movies/photo_site.mov" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
             <hr>
-                    <a href="http://lisaolson.info/lisaolsonphoto" target="_blank"><i class="fas fa-globe linkz"></i></a></li>
+                    <a href="https://github.com/lisaolson/lisaolsonphoto" target="_blank"><i class="fab fa-github linkz"></i></a></li>
         </div>
     </div>
       
@@ -105,17 +101,12 @@
       <span class="close4 close">&times;</span>
       <h2>Latte Darling</h2><br>
           <p>MEAN web application</p><br><br>
-          <ul>
-              <li>Wire frames</li>
-              <li>Custom UI Design</li>
-              <li>Designed in 2-week sprint</li>
-              <li>User story-lines and Perspecive</li>
-          </ul>
-              <h3>Technologies Used</h3><br>
-                  <p>Mongo, Express, Angular, Node, Atom, Github, Git, Bootstrap, HTML, CSS, JavaScript, Google Maps API</p><br>
-              <br>
+          <video controls autoplay loop class="modal-vid right_col">
+            <source src="public/movies/latte_darling_s.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
         <hr>
-              <a href="http://latte-darling.herokuapp.com/" target="_blank"><i class="fas fa-globe linkz"></i></a></li>
+              <a href="https://github.com/lisaolson/latte-darling" target="_blank"><i class="fab fa-github linkz"></i></a></li>
    </div>  
   </div>
   
@@ -256,6 +247,28 @@
               <button class="info_btn" id="myBtn2">Monty</button>
           </div>
 </div>
+
+<section class="project_gifs">
+        <h2 class="gifs_header">Front-End Showcase</h2>
+    <div class="gifs">
+        <video controls autoplay loop class="right_col" id="nocolor">
+            <source src="public/movies/latte_darling_s.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <video controls autoplay loop class="left_col" id="color">
+            <source src="public/movies/photo_site.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <video controls autoplay loop class="right_col" id="nocolor">
+            <source src="public/movies/jdc.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <video controls autoplay loop id="color">
+            <source src="public/movies/natours_s.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+</section>
 
     <footer>
         <div class="icons">
