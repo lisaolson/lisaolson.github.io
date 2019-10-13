@@ -1,7 +1,12 @@
 /* Header  */
 
 .opener-section {
-    height: 30rem;
+    height: 32rem;
+    display: flex;
+}
+
+.opener {
+    position: absolute;
 }
 
 .opener-paragraph {
@@ -13,39 +18,16 @@
 }
 
 .blueyellow {
-    position: absolute;
-    width: 50rem;
-    top: 6em;
-    opacity: .9;
-    left: 6rem;
+    width: 40%;
     border: 2px solid #595959;
     padding: 2%;
-}
-
-.line1 {
-    position: absolute;
-    width: .2em;
-    height: 40em;
-    background: #595959;
-    z-index: 10;
-    left: 16em;
-    top: 0;
-}
-
-.line2 {
-    position: absolute;
-    width: 25%;
-    height: .2em;
-    background: #595959;
-    z-index: 9;
-    top: 30em;
-    left: 0;
+    margin: 10%;
 }
 
 .name {
     transform: rotate(270deg);
     font-family: 'Thasadith', sans-serif;
-    letter-spacing: 20px;
+    letter-spacing: 27px;
     color: #595959;
     text-transform: uppercase;
     font-size: 2.5rem; 
@@ -55,209 +37,210 @@
 .engcre {
     letter-spacing: .5em;
     position: absolute;
-    top: 10rem;
+    top: 10.6rem;
     right: 5.8em;
 }
 
 .cre {
     font-family: 'Dancing Script', cursive;
     font-size: 1.3em;
-    color: #C7E2DA;
-}
-
-/* About Me Section */
-
-.about {
-    position: absolute;
-    width: 100%;
-    top: 20rem;
-}
-
-.aboutme {
-    position: relative;
-    margin: 0 15%;
-}
-
-.aboutme h2 {
-    color: #a5c6d2;
-    font-size: 4rem;
-    text-align: left;
-}
-
-.aboutme p {
-    /* position: absolute; */
-    z-index: 1;
-    color: #2B2B2B;
-    opacity: 1;
-    width: 50%;
-    padding: 5% 0 0 0;
-}
-
-.myface {
-    width: 48%;
-    position: absolute;
-    right: 3rem;
-    opacity: .6;
-    padding: 4% 0 4% 0;
-    z-index: 1;
-    top: 4rem;
-}
-
-.line3 {
-    position: absolute;
-    width: .2em;
-    height: 15em;
-    background: #6E9CB1;
-    z-index: 10;
-    right: 10em;
-    top: 0;
-}
-
-.line4 {
-    position: absolute;
-    width: 30em;
-    height: .2em;
-    background: #6E9CB1;
-    z-index: 9;
-    top: 10em;
-    right: -10rem;
 }
 
 /* See My Work */
 
-.pillars {
-    height: 5rem;
-    width: 100%;
-}
 .mywork {
     position: absolute;
-    top: 32rem;
-    right: 5rem;
-    border: 2px solid #ceebe2;
+    top: 70%;
+    right: 3%;
+    border: 2px solid #a5c6d2;
     padding: 1%;
     border-radius: 1%;
 }
 
-.mywork i{
+.mywork i {
     font-size: 1em;
 }
 
 .mywork a {
     text-decoration: none;
-    color: #595959;
+    color: #a5c6d2;
     font-size: 1.5em;
     font-family: 'Thasadith', sans-serif;
 }
 
 .mywork:hover {
-    background: #ceebe2;
+    background: #a5c6d2;
 }
-.mywork:hover a{
-    color: #595959;
-}
-
-.ux {
-    color: #BF8989;
-    font-size: 1.3em;
-}
-
-.u {
-    color: #a5c6d2;
-    font-size: 1.1em;
-}
-
-.process-background {
-    height: 90vh;
-    background: #2B2B2B;
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-    margin: 0 auto;
+.mywork:hover a {
+    transition: all .8s;
+    color: #F7F7F7
 }
 
 
 @media (min-width: 1140px) {
-    body {
-      
+    .blueyellow {
+        width: 40%;
+    }
+    .mywork {
+        top: 70%;
+        right: 3%;
     }
   }
   
-  @media (max-width: 1139px) and (min-width: 800px) {
-    .line4 {
-        width: 20em;
-    }
-
-    .line3 {
-        right: 5em;
-    }
-
-    .opener-section {
-        color: #F7F4F2;
-    }
+  @media (max-width: 1139px) and (min-width: 901px) {
     .opener-paragraph {
-        right: 6em;
+        top: 12%;
+        right: 2%;
     }
+    .blueyellow {
+        width: 75%;
+    }
+
     .name {
-        color: #595959;
+        font-size: 15px;
+        color: #F7F7F7;
     }
+    .engcre {
+        top: 12.5rem;
+        right: 8em;
+        font-size: 14px;
+        color: #F7F7F7;
+    }
+
     .cre {
-        color: #595959;
+        color: #F7F7F7;
     }
-    .myface {
-        top: 25rem;
-        margin: 0 auto;
-        width: 80%;
-        left: 4em;
+
+    .mywork {
+        top: 70%;
+        right: 10%;
     }
-    .process-background {
-        height: 130vh;
-    }
-    .about p {
-        font-size: 2rem;
-    }
-    .process-background {
-        height: 70vh;
+
+    .mywork a {
+        color: #6E9CB1;
     }
   }
 
-  @media (max-width: 799px) {
-    .line4 {
-        width: 20em;
-    }
-
-    .line3 {
-        right: 5em;
-    }
-
-    .opener-section {
-        color: #F7F4F2;
-    }
+  @media (max-width: 900px) and (min-width: 601px) {
     .opener-paragraph {
-        right: 6em;
+        top: 9%;
+        right: 0;
     }
-    .eng {
-        color: #595959;
+    .blueyellow {
+        width: 75%;
     }
+
     .name {
-        color: #595959;
+        font-size: 15px;
+        color: #F7F7F7;
+        position: absolute;
+        top: 4.5rem;
+        right: 1.2rem;
     }
+    .engcre {
+        top: 12.5rem;
+        right: 8em;
+        font-size: 11px;
+        color: #F7F7F7;
+    }
+
     .cre {
-        color: #595959;
+        color: #F7F7F7;
     }
-    .myface {
-        top: 25rem;
-        margin-left: 10%;
+
+    .mywork {
+        top: 50%;
+        right: 10%;
+    }
+
+    .mywork a {
+        color: #6E9CB1;
+    }
+  }
+
+  @media (max-width: 600px) and (min-width: 376px) {
+    .opener-paragraph {
+        top: 0;
+        right: 3rem;
+    }
+    .blueyellow {
+        margin: 15% 10%;
+        width: 75%;
+    }
+
+    .name {
+        font-size: 10px;
+        color: #F7F7F7;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        margin: 0;
         width: 100%;
-        left: .1em;
+        height: 100%;
+        top: .3rem;
+        position: absolute;
+        left: -9%;
     }
-    .about p {
-        font-size: 2rem;
+    .engcre {
+        top: 15.5rem;
+        right: 1rem;
+        font-size: 8px;
+        color: #F7F7F7;
     }
-    .process-background {
-        height: 70vh;
+
+    .cre {
+        color: #F7F7F7;
+    }
+
+    .mywork {
+        top: 50%;
+        right: 3%;
+    }
+
+    .mywork a {
+        color: #6E9CB1;
     }
     
   }
 
+  @media (max-width: 375px) {
+    .opener-paragraph {
+        top: 0;
+        right: 3rem;
+    }
+    .blueyellow {
+        margin: 15% 10%;
+        width: 75%;
+    }
+
+    .name {
+        font-size: 10px;
+        color: #F7F7F7;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        top: -1rem;
+        position: absolute;
+    }
+    .engcre {
+        top: 14rem;
+        right: 0;
+        font-size: 8px;
+        color: #F7F7F7;
+    }
+
+    .cre {
+        color: #F7F7F7;
+    }
+
+    .mywork {
+        top: 50%;
+        right: 3%;
+    }
+
+    .mywork a {
+        color: #6E9CB1;
+    }
+    
+  }
