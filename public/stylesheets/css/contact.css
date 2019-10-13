@@ -1,17 +1,25 @@
 .contact {
-    width: 50%;
-    margin: 10% 15%;
+    display: flex;
 }
-
 .contact i {
     color: #BF8989;
     font-size: 1.5rem;
     padding: 2%;
 }
 
+.contact-text {
+    position: absolute;
+    z-index: 50;
+    margin: 15%;
+    padding-right: 10%;
+}
+
+.contact-text p {
+    font-size: 20px;
+}
+
 .ptag {
     font-family: 'Thasadith', sans-serif;
-    /* padding: 2%; */
 }
 
 i.fa-instagram {
@@ -23,45 +31,12 @@ i.fa-instagram {
 }
 
 .process img {
-    background: cover;
-    width: 30%;
-    position: absolute;
-    right: -5rem;
     height: 40em;
-    margin-right: 20%;
-    top: 0;
+    position: absolute;
+    right: 0;
 }
 
-@media (max-width: 1139px) and (min-width: 800px) {
-    .contact-text {
-        font-size: 2rem;
-    }
-
-    .contact-nottext {
-        font-size: 2rem;
-        margin: 15%;
-    }
-
-    .process img {
-        width: 0;
-        height: 0;
-        visibility:  hidden;
-        display: none;
-    }
-  }
-  
-  @media (max-width: 799px) {
-    .contact-text {
-        font-size: 2rem;
-    }
-
-    .contact-nottext {
-        font-size: 2rem;
-        margin: 15%;
-    }
-
-    .process img {
-        margin-top: 85%;
-    }
-  }
-  
+.menu {
+    height: 100%;
+    width: 30%;
+}

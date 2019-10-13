@@ -18,50 +18,29 @@
   </head>
   <body>
 
-    <div class="navigation">
-        <input type="checkbox" class="navigation __checkbox" id="navi-toggle">
-
-        <label for="navi-toggle" class="navigation __button">
-            <span class="navigation __icon"><i class="fab fa-ello"></i></span>
-        </label>
-
-        <div class="navigation __background"></div>
-
-        <nav class="navigation __nav">
-            <ul class="navigation __list">
-                <li class="navigation __item"><a href="/about" class="navigation __link item1">Story</a></li><br>
-                <li class="navigation __item"><a href="/projects" class="navigation __link item2">Work</a></li><br>
-                <li class="navigation __item"><a href="contact" class="navigation __link item3">Info</a></li><br>
-            </ul>
-        </nav>
+    <div class="menu">
+        <a href="/about" class="menu-links">Story</a>
+        <a href="/projects" class="menu-links">Work</a>
+        <a href="contact" class="menu-links">Info</a>
     </div>
+    <div class="menu__toggler"><span></span></div>
 
-    <div class="process">
-        <img src="public/images/seriesA.jpg" class="series1" alt="">
-    </div>
     <div class="contact">
-        <div class="next">
-            <!-- <img src="public/images/seriesB.jpg" class="series2" alt="">
-            <img src="public/images/seriesC.jpg" class="series3" alt="">
-            <img src="public/images/seriesD.jpg" class="series4" alt=""> -->
-        </div>
                 
         <div class="contact-text">
-            <p>Happy to hear from everyone/anyone about anything at all.</p><br>
-            <p>Feel free to call, email or connect through socials</p><br>
-            <p>p.s. truly am not just saying this but genuinely love to connect with people;<br> happy to exchange tips/advice or just make a new friend.  <br>Don't hesitate to reach out. &#9829;</p>
-        </div>
-        <div class="contact-nottext">
-            <i class="fas fa-phone"></i><span class="ptag"> 559-967-3925 </span><br>
+            <p>Happy to hear from everyone/anyone about anything at all &#9829;</p>
             <i class="fas fa-envelope" aria-hidden="true"></i><span class="ptag"> clisaolson@gmail.com </span><br>
             <i class="fab fa-instagram" aria-hidden="true"></i><span class="ptag"> @eunoia_fidel </span>
+        </div>
+        <div class="process">
+            <img src="public/images/soft-leaf.jpg" class="series1" alt="">
         </div>
     </div>
 
 <footer>
     <div class="icons">
         <a href="https://github.com/lisaolson" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-        <a href="mailto:olson.lisa94@gmail.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+        <a href="mailto:clisaolson@gmail.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/carolynlisaolson/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
         <a href="https://twitter.com/eunoia_lo" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
         <a href="http://thecodingblues.blogspot.com/" target="_blank"><i class="fab fa-blogger-b" aria-hidden="true"></i></a>
@@ -73,5 +52,15 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        const toggler = document.querySelector('.menu__toggler');
+        const menu    = document.querySelector('.menu');
+
+        toggler.addEventListener('click', () => {
+        toggler.classList.toggle('active');
+        menu.classList.toggle('active');
+        });
+    </script>
   </body>
 </html>
