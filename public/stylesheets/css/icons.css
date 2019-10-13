@@ -1,12 +1,12 @@
 .icons {
     text-align: center;
-    margin-top: 3em;
+    margin-top: 1.5rem;
 }
 
 .icons a {
-    font-size: 2rem;
+    font-size: 25px;
     color: #F7F4F2;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .icons a:hover {
@@ -26,3 +26,15 @@
     -o-transition: all .2s ease;
     transition: all .2s ease;
 }
+
+@media screen and (max-width: 420px) {
+    .icons a {
+        font-size: 14px;
+        color: #F7F4F2;
+        padding: 1rem;
+    }
+}
+/* 
+font-size: 3rem;
+    color: #F7F4F2;
+    padding: 2rem; */
