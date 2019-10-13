@@ -1,10 +1,9 @@
 div.scrollmenu {
-  position: inherit;
-  margin-top: 15%;
+  position: absolute;
   background-color: transparent;
   overflow: auto;
   white-space: nowrap;
-  padding-bottom: 5%;
+  top: 15rem;
 }
 
 p {
@@ -220,19 +219,7 @@ span.title {
   letter-spacing: 2.5px;
 }
 
-/* @media (min-width: 1140px) {
-  .element {
-      width: 70%;
-      height: 40em;
-  }
-
-  div.thumbnail img {
-      height: 35em;
-      width: 100%;
-  }
-} */
-
-@media (max-width: 1007px) and (min-width: 641px) {
+@media (max-width: 1007px) {
   .element {
       width: 50%;
       height: 30em;
@@ -240,18 +227,6 @@ span.title {
 
   div.thumbnail img {
       height: 25em;
-      width: 100%;
-  }
-}
-
-@media (max-width: 640px) {
-  .element {
-      width: 70%;
-      height: 40em;
-  }
-
-  div.thumbnail img {
-      height: 35em;
       width: 100%;
   }
 }
@@ -267,3 +242,27 @@ span.title {
       width: 100%;
   }
 } */
+
+@media only screen and (max-width: 415px) {
+    div.scrollmenu {
+      top: 30%;
+    }
+  
+    .element {
+      width: 90%;
+      height: 40em;
+    }
+  
+    div.thumbnail img {
+      height: 33em;
+      width: 100%;
+    }
+
+    .info_btn {
+        height: 40px;
+    }
+
+    .menu {
+      height: 140%;
+    }
+  }

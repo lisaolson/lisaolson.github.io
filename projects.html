@@ -3,38 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Lisa Olson</title>
-    <link rel="stylesheet" href="public/stylesheets/css/landing.css">
     <link rel="stylesheet" href="public/stylesheets/css/footer.css">
     <link rel="stylesheet" href="public/stylesheets/css/nav.css">
     <link rel="stylesheet" href="public/stylesheets/css/base.css">
     <link rel="stylesheet" href="public/stylesheets/css/icons.css">
-    <link rel="stylesheet" href="public/stylesheets/css/home.css">
     <link rel="stylesheet" href="public/stylesheets/css/projects.css">
     <link rel="stylesheet" href="public/stylesheets/css/gifs.css">
     <link rel="shortcut icon" href="public/images/favicon-sun-o.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Dancing+Script|Dawning+of+a+New+Day|Italianno|Poiret+One|Thasadith" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
   <body>
 
-    <div class="navigation">
-        <input type="checkbox" class="navigation __checkbox" id="navi-toggle">
-
-        <label for="navi-toggle" class="navigation __button">
-            <span class="navigation __icon"><i class="fab fa-ello"></i></span>
-        </label>
-
-        <div class="navigation __background"></div>
-
-        <nav class="navigation __nav">
-            <ul class="navigation __list">
-                <li class="navigation __item"><a href="/about" class="navigation __link item1">Story</a></li><br>
-                <li class="navigation __item"><a href="/projects" class="navigation __link item2">Work</a></li><br>
-                <li class="navigation __item"><a href="contact" class="navigation __link item3">Info</a></li><br>
-            </ul>
-        </nav>
-    </div>
+        <div class="menu">
+            <a href="/about" class="menu-links">Story</a>
+            <a href="/projects" class="menu-links">Work</a>
+            <a href="contact" class="menu-links">Info</a>
+        </div>
+        <div class="menu__toggler"><span></span></div>
 
 
       <!-- Photography Website -->
@@ -273,7 +261,7 @@
     <footer>
         <div class="icons">
                 <a href="https://github.com/lisaolson" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-                <a href="mailto:olson.lisa94@gmail.com"target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                <a href="mailto:clisaolson@gmail.com"target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/carolynlisaolson/"target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/eunoia_lo"target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                 <a href="http://thecodingblues.blogspot.com/"target="_blank"><i class="fab fa-blogger-b" aria-hidden="true"></i></a>
@@ -285,6 +273,16 @@
     
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script>
+            const toggler = document.querySelector('.menu__toggler');
+            const menu    = document.querySelector('.menu');
+    
+            toggler.addEventListener('click', () => {
+            toggler.classList.toggle('active');
+            menu.classList.toggle('active');
+            });
+        </script>
 
         <script>
             window.onload = function()
@@ -303,7 +301,6 @@
                 seventh_modal();
                 eighth_modal();
             }
-
             // Photo Modal
             function photo_modal() {
                   var modal = document.getElementById('photoModal');
