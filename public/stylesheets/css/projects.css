@@ -3,7 +3,7 @@ div.scrollmenu {
   background-color: transparent;
   overflow: auto;
   white-space: nowrap;
-  top: 15rem;
+  top: 25%;
 }
 
 p {
@@ -262,6 +262,6 @@ span.title {
     }
 
     .menu {
-      height: 140%;
+      /* height: 112%; */
     }
   }
