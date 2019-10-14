@@ -244,17 +244,16 @@ span.title {
 } */
 
 @media only screen and (max-width: 415px) {
-    div.scrollmenu {
-      top: 30%;
+    .scrollmenu {
+      top: 10%;
     }
   
     .element {
       width: 90%;
-      height: 40em;
+      height: 30em;
     }
   
     div.thumbnail img {
-      height: 33em;
       width: 100%;
     }
 
