@@ -249,19 +249,16 @@ span.title {
     }
   
     .element {
-      width: 90%;
-      height: 30em;
+      height: auto;
+      width: 70%;
     }
-  
-    div.thumbnail img {
-      width: 100%;
+
+    .element img {
+      height: auto;
     }
+
 
     .info_btn {
         height: 40px;
-    }
-
-    .menu {
-      /* height: 112%; */
     }
   }
