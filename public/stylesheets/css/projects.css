@@ -245,7 +245,7 @@ span.title {
 
 @media only screen and (max-width: 415px) {
     .scrollmenu {
-      top: 10%;
+      top: 2%;
     }
   
     .element {
