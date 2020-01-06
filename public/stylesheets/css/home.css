@@ -87,7 +87,7 @@
     }
   }
 
-@media (min-width: 700px) {
+@media (max-width: 1140px) and (min-width: 700px) {
     .opener-paragraph {
         top: 40%;
     }
