@@ -9,12 +9,14 @@ footer {
 
 footer p {
     font-family: 'Thasadith', sans-serif;
-    color: #F7F4F2;
-    font-size: 18px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
     padding: 2%;
     margin: 0 auto;
     text-align: center;
     display: grid;
+    letter-spacing: 5px;
 }
 a.icon_bottom {
     display: block;
@@ -33,7 +35,7 @@ a.icon_bottom {
     color: #F7F4F2;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {  
     footer p {
         font-size: 10px;
         padding: 4%;
