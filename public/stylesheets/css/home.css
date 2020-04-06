@@ -112,7 +112,7 @@
       }
 
       h2.name {
-        margin: 50% 0 0 10%;
+        margin: 100% 0 0 10%;
         transform: rotate(0deg);
         position: initial;
       }
@@ -125,5 +125,9 @@
         letter-spacing: .5em;
         position: inherit;
         margin: 10%;
+      }
+
+      .mywork {
+        top: 80%;
       }
   }
