@@ -1,10 +1,21 @@
 .contact {
     display: flex;
 }
-.contact i {
-    color: #BF8989;
+
+.icons a {
+    font-size: 25px;
+    color: #F7F4F2;
+    padding: 1rem;
+}
+
+.contact-env,
+.fa-instagram {
+    background-image: linear-gradient(to top right, #FF01FB  0%, #00DCFF 100%);
+    border-radius: 5px;
+    color: white;
+    padding: 3%;
+    margin: 5%;
     font-size: 1.5rem;
-    padding: 2%;
 }
 
 .contact-text {
@@ -20,6 +31,7 @@
 
 .ptag {
     font-family: 'Thasadith', sans-serif;
+    font-size: 1.8rem;
 }
 
 i.fa-instagram {
@@ -31,12 +43,8 @@ i.fa-instagram {
 }
 
 .process img {
-    height: 40em;
-    position: absolute;
-    right: 0;
-}
-
-.menu {
-    height: 100%;
-    width: 30%;
+    display: none;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
 }
