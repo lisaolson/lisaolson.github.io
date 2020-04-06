@@ -33,4 +33,5 @@
   border-image: linear-gradient(to top right, #FF01FB 0%, #00DCFF 100%);
   border-image-slice: 1;
   font-weight: bolder;
+  text-decoration: none;
 }
