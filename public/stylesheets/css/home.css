@@ -112,15 +112,17 @@
       }
 
       h2.name {
-        margin: 70% 0 0 10%;
+        margin: 45% 0 0 10%;
         transform: rotate(0deg);
         position: initial;
       }
       .opener-paragraph {
+        margin-top: 35%;
         font-family: 'Poiret One';
         position: initial;
         display: inline;
       }
+
       .engcre {
         letter-spacing: .5em;
         position: inherit;
@@ -128,6 +130,12 @@
       }
 
       .mywork {
-        top: 80%;
+        top: 75%;
+        padding: 5%;
+        position: fixed;
+      }
+
+      svg {
+        margin: 8rem 0;
       }
   }
