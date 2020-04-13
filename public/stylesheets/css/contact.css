@@ -2,11 +2,11 @@
     display: flex;
 }
 
-.icons a {
+/* .icons a {
     font-size: 25px;
     color: #F7F4F2;
     padding: 1rem;
-}
+} */
 
 .contact-env,
 .fa-instagram {
@@ -31,7 +31,6 @@
 
 .ptag {
     font-family: 'Thasadith', sans-serif;
-    font-size: 1.8rem;
 }
 
 i.fa-instagram {
