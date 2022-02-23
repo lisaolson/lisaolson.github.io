@@ -1,16 +1,16 @@
 footer {
-    border-top: 1px solid #989fa3;
+    /* border-top: 1px solid #989fa3; */
     position: fixed;
     bottom: 0;
-    background-color: #2B2B2B;
+    /* background-color: #2B2B2B; */
     width: 100%;
     z-index: 10;
 }
 
 footer p {
     font-family: 'Thasadith', sans-serif;
-    color: #fff;
-    font-size: 15px;
+    color: #2B2B2B;
+    font-size: 8px;
     font-weight: bolder;
     padding: 2%;
     margin: 0 auto;
@@ -20,7 +20,7 @@ footer p {
 }
 a.icon_bottom {
     display: block;
-    color: #F7F4F2;
+    color: #2B2B2B;
 }
 div#icons.row {
     margin: 0 40%;
@@ -32,7 +32,7 @@ div.col-md-3.icon_row {
 }
 a.icon_bottom {
     font-size: 25px;
-    color: #F7F4F2;
+    color: #2B2B2B;
 }
 
 @media screen and (max-width: 420px) {  

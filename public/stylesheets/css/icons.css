@@ -5,7 +5,7 @@
 
 .icons a {
     font-size: 25px;
-    color: #F7F4F2;
+    color: #2B2B2B;
     padding: 1rem;
 }
 
@@ -18,7 +18,7 @@
 @media screen and (max-width: 420px) {
     .icons a {
         font-size: 14px;
-        color: #F7F4F2;
+        color: #2B2B2B;
         padding: 1rem;
     }
 }
