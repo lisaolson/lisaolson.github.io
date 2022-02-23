@@ -49,7 +49,7 @@ i.fa-instagram {
 }
 
 @media (max-width: 699px) {
-    .ptag {
-        display: hidden;
+    .contact-icons {
+        visibility: hidden;
     }
 }
