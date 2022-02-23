@@ -47,3 +47,9 @@ i.fa-instagram {
     height: 50vh;
     overflow: hidden;
 }
+
+@media (max-width: 699px) {
+    .ptag {
+        display: hidden;
+    }
+}
