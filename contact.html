@@ -16,27 +16,73 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Dancing+Script|Dawning+of+a+New+Day|Italianno|Poiret+One|Thasadith" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('user_MqZFlXjY9j2kYh4vD34ol');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_dloeuud', 'template_a7gnw7s', '#contact-form', 'user_MqZFlXjY9j2kYh4vD34ol')
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        let formAll = document.getElementById('contact-form');
+                        formAll.reset();
+                        
+                        let thankYouMsg = document.getElementById('thankYou');
+                        thankYouMsg.style.visibility = 'visible';
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
   </head>
+
   <body>
 
-    <div class="menu">
-        <a href="/about" class="">Home</a>
-        <a href="/projects" class="">Work</a>
-        <a href="/contact" class="">Info</a>
-    </div>
+        <div class="menu">
+                <a href="/" class="">Home</a><br><br>
+                <a href="/projects" class="">Work</a><br><br>
+                <a href="/contact" class="">Info</a>
+                <!-- <p>&copy; LISA OLSON 2022</p> -->
+            </div>
 
     <div class="contact">
-                
-        <div class="contact-text">
-            <p>Happy to hear from everyone/anyone about anything at all &#9829;</p>
-            <div class="contact-icons">
-                <i class="fas fa-envelope contact-env" aria-hidden="true"></i><span class="ptag"> clisaolson@gmail.com </span><br>
-                <i class="fab fa-instagram" aria-hidden="true"></i><span class="ptag"> @eunoia.fidel </span>
+
+            <div class="container">
+                <div class="circle circle1"></div>
+                <div class="circle circle2"></div>
             </div>
-        </div>
-        <div class="process">
-            <img src="public/images/soft-leaf.jpg" class="series1" alt="">
-        </div>
+            <svg>
+                <filter id="gooey">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+                    <feColorMatrix values="
+                    1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 20 -10
+                    "/>
+                </filter>
+            </svg>
+
+            <!-- CONTACT FORM -->
+            <form id="contact-form">
+                <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" placeholder="emily" id="firstName" required><br>
+                <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" placeholder="doe" id="lastName" required><br>
+                <label for="email">Email</label><br>
+                    <input type="email" name="email" placeholder="email@email.com" id="email" required><br>
+                <label for="message" required>Message</label>
+                    <textarea name="message" id="message" placeholder="hey! would love to grab coffee..."></textarea><br>
+                    <input class="submitbtn" type="submit" value="Send">
+                    <p id="thankYou">Thank you! &#129395; I will be in contact soon.</p>
+            </form>
     </div>
 
     <footer>
@@ -51,5 +97,79 @@
         </div>
         <p>&copy; LISA OLSON 2022</p>
     </footer>
+        <style>
+                .container {
+                    position: relative;
+                    width: 100vw;
+                    display: flex;
+                    justify-content: space-between;
+                    filter: url(#gooey);
+                }
+                .container .circle {
+                    position: relative;
+                    /* min-width: 300px; */
+                    height: 100vh;
+                    border-radius: 50%;
+                    background: #fff;
+                }
+                .container .circle:before {
+                    content: '';
+                    position: absolute;
+                    top: -50px;
+                    left: -50px;
+                    right: -50px;
+                    bottom: -50px;
+                    border-radius: 50%;
+                    background: #fff;
+                    z-index: -1;
+                    filter: blur(50px);
+                }
+                .container .circle.circle1,
+                .container .circle.circle1:before {
+                    background: linear-gradient(90deg, #FF01FB, #00DCFF);
+                }
+                .container .circle.circle2,
+                .container .circle.circle2:before {
+                    background: linear-gradient(90deg, #00DCFF, #FF01FB);
+                }
+                .container .circle1.circle1 {
+                    animation: animate1 30s linear infinite;
+                }
+                @keyframes animate1 {
+                    0% {
+                        transform: translateX(0) rotate(0deg);
+                    }
+                    30% {
+                        transform: translateX(250px) rotate(240deg);
+                    }
+                    60% {
+                        transform: translateX(250px) rotate(480deg);
+                    }
+                    100% {
+                        transform: translateX(0) rotate(720deg);
+                    }
+                }
+                .container .circle.circle2 {
+                    animation: animate2 30s linear infinite;
+                }
+                @keyframes animate2 {
+                    0% {
+                        transform: translateX(0) rotate(0deg);
+                    }
+                    30% {
+                        transform: translateX(-250px) rotate(-240deg);
+                    }
+                    60% {
+                        transform: translateX(-250px) rotate(-480deg);
+                    }
+                    100% {
+                        transform: translateX(0) rotate(-720deg);
+                    }
+                }
+                svg {
+                    width: 0;
+                    height: 0;
+                }
+            </style>
   </body>
 </html>

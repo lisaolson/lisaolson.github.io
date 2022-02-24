@@ -1,5 +1,68 @@
 .contact {
-    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+/* FORM STYLING */
+#contact-form {
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    z-index: 1000;
+    width: 40%;
+}
+
+label {
+    font-family: 'Poiret One';
+    font-weight: bolder;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #2b2b2b;
+    width: 100%;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    font-family: 'Poiret One';
+}
+
+#contact-form input[type="submit"] {
+    border: none;
+    padding: 1%;
+    border-radius: 3px;
+    transition: 0.5s;
+    /* background-size: 200% auto; */
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    /* background-image: linear-gradient(to right,  #00DCFF 0%, #FF01FB 100%); */
+    /* background-image: linear-gradient(to right,  #2b2b2b 0%, #000 100%); */
+    background: #2b2b2b;
+    width: 100%;
+    font-family: 'Poiret One';
+}
+
+#contact-form #thankYou {
+    text-align: center;
+    color: #2b2b2b;
+    padding: 4%;
+    visibility: hidden;
 }
 
 /* .icons a {

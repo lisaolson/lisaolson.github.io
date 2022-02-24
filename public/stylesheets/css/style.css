@@ -15,4 +15,6 @@ html {
       font-size: 50%; } }
 
 body {
-  background: white; }
+  background: white;
+  height: 100vh;
+}

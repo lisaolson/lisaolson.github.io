@@ -1,14 +1,17 @@
 .menu {
+  position: absolute;
+  left: 0;
   padding: 3%;
   position: fixed;
-  width: 100%;
   z-index: 12;
-  background: white;
-  opacity: .7;
+  height: 10vh;
+  color: #2b2b2b;
   top: 0;
+  padding: 5%;
 }
 
 .menu a {
+  padding: 1%;
   border: 4px solid transparent;
   border-radius: 3px;
   color: #2b2b2b;
@@ -28,10 +31,15 @@
 }
 
 .menu a:hover {
-  border: 4px solid;
+  text-decoration: none;
+  font-weight: bolder;
+  color: gray;
+  transition: .3s;
+  color: #2b2b2b;
+  /* border: 4px solid;
   border-radius: 5px;
   border-image: linear-gradient(to top right, #FF01FB 0%, #00DCFF 100%);
   border-image-slice: 1;
   font-weight: bolder;
-  text-decoration: none;
+  text-decoration: none; */
 }
