@@ -111,8 +111,28 @@ i.fa-instagram {
     overflow: hidden;
 }
 
+@media (max-width: 1140px) and (min-width: 700px) {
+    #contact-form {
+        margin: 0 auto;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        z-index: 1000;
+        width: 80%;
+    }
+}
 @media (max-width: 699px) {
     .contact-icons {
         visibility: hidden;
     }
+
+    #contact-form {
+        margin: 0 auto;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        z-index: 1000;
+        width: 80%;
+    }
 }
+
