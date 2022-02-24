@@ -241,7 +241,7 @@ span.title {
       width: 100%;
   }
 } */
-
+/* 
 @media only screen and (max-width: 415px) {
     .scrollmenu {
       top: 2%;
@@ -260,13 +260,4 @@ span.title {
     .info_btn {
         height: 40px;
     }
-  }
-
-
-  @media (max-width: 1140px) and (min-width: 700px) {
-
-  }
-  
-  @media (max-width: 699px) {
-    
-  }
+  } */
