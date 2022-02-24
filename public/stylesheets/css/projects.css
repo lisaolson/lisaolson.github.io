@@ -7,7 +7,6 @@ div.scrollmenu {
 }
 
 p {
-  overflow: scroll;
   color: #545f66;
   font-family: 'Thasadith', sans-serif;
   opacity: .9;
@@ -265,7 +264,7 @@ span.title {
 
 
   @media (max-width: 1140px) and (min-width: 700px) {
-    
+
   }
   
   @media (max-width: 699px) {
