@@ -9,6 +9,8 @@
 body {
     background: white;
     height: 100vh;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 p, 
