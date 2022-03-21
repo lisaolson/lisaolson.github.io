@@ -27,6 +27,7 @@
     </div>
 
     <div class="scrollmenu">
+        <!-- <img id="arr-work" src="public/images/arrow.svg" alt=""> -->
         <a href="https://github.com/lisaolson/latte-darling" target="_blank" title="Github Link">
           <img src="public/images/card/latte-darling.png" alt="Design Project made in p5">
         </a>
@@ -46,12 +47,20 @@
           <img src="public/images/card/natours.png" alt="Design Project made in p5">
         </a>
 
+        <a href="https://ideaevolver.com" title="Presentation Link" target="_blank">
+          <img src="public/images/ie.png" alt="Pet Buddy Design Project">
+        </a>
+
         <a href="https://github.com/lisaolson/front-end/tree/master/nexter" target="_blank" title="Github Link">
           <img src="public/images/card/nexter.png" alt="Design Project made in p5">
         </a>
 
         <a href="https://github.com/lisaolson/front-end/tree/master/trillo" target="_blank" title="Github Link">
           <img src="public/images/card/trillo.png" alt="Design Project made in p5">
+        </a>
+
+        <a href="https://docs.google.com/presentation/d/1dniza7LiyDMGJFzCaswo17Cs62Cgks0XuXUB8FL3sPU/edit?usp=sharing" title="Presentation Link">
+          <img src="public/images/petBuddy.png" alt="Pet Buddy Design Project">
         </a>
 
         <a href="https://github.com/lisaolson/project-vagabond" target="_blank" title="Github Link">
@@ -134,6 +143,25 @@
         #small-grid {
             grid-template-columns: repeat(1, 1fr);
         }
+    }
+
+    #arr-work {
+      top: 0;
+      height: 50px;
+        animation: move 3s linear;
+        animation-iteration-count: infinite;
+        stroke-width: .5;
+        stroke: #2B2B2B;
+    }
+
+    @keyframes move {
+      from {
+                left: 0px;
+            }
+            to {
+                left: 15px;
+            }
+
     }
 
 .container {
