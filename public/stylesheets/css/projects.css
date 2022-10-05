@@ -1,8 +1,8 @@
 div.scrollmenu {
-  position: absolute;
+  /* position: absolute; */
   background-color: transparent;
-  overflow: auto;
-  white-space: nowrap;
+  /* overflow: auto;
+  white-space: nowrap; */
   top: 25%;
 }
 

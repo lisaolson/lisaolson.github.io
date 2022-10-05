@@ -26,7 +26,7 @@
         <!-- <p>&copy; LISA OLSON 2022</p> -->
     </div>
 
-    <div class="scrollmenu">
+    <div class="all-images">
         <a href="https://ideaevolver.com" title="Presentation Link" target="_blank">
           <img src="public/images/ie.png" alt="Pet Buddy Design Project">
         </a>
@@ -57,10 +57,10 @@
         <a href="https://github.com/lisaolson/front-end/" target="_blank" title="Github Link">
           <img src="public/images/card/trillo.png" alt="Design Project made in p5">
         </a>
-
+<!-- 
         <a href="https://docs.google.com/presentation/d/1dniza7LiyDMGJFzCaswo17Cs62Cgks0XuXUB8FL3sPU/edit?usp=sharing" title="Presentation Link">
           <img src="public/images/petBuddy.png" alt="Pet Buddy Design Project">
-        </a>
+        </a> -->
 
       </div>
   
@@ -118,8 +118,8 @@
     }
 
     body {
-      overflow-y: hidden;
-      overflow-x: scroll;
+      overflow: hidden;
+      /* height: 100vh; */
     }
 
     img {
@@ -164,14 +164,12 @@
     grid-gap: 20px;
 }
 
-div.scrollmenu {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  margin: 30vh 0;
+
+div.all-images {
+  margin-left: 18vw;
+  height: 89vh;
+  overflow: scroll;
+  margin-bottom: 15vh;
 }
 
 div.scrollmenu img {

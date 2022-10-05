@@ -3,11 +3,6 @@
     width: 100vw;
 }
 
-
-body {
-    overflow: hidden;
-}
-
 /* FORM STYLING */
 #contact-form {
     margin: 0 auto;
